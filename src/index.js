@@ -5,6 +5,7 @@ import createBrowserHistory from 'history/createBrowserHistory';
 
 import * as serviceWorker from './serviceWorker';
 import Home from 'components/@Home';
+import Join from 'components/@Join';
 import 'styles/index.scss';
 
 const history = createBrowserHistory();
@@ -12,7 +13,7 @@ const history = createBrowserHistory();
 ReactDOM.render(
     <Router history={history}>
         <Switch>
-            {/* <Route path='/join' component={Join} /> */}
+            <Route path='/join' component={Join} />
             <Route path='/' component={Home} />
         </Switch>
     </Router>,
