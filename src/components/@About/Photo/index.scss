@@ -1,0 +1,75 @@
+@import "../../../styles/base";
+
+$large: 200px;
+$medium: 175px;
+$small: 150px;
+$xsmall: 125px;
+
+.photo {
+    width: $medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        width: $small;
+    }
+
+    .photo-wrapper {
+        width: $medium;
+        height: $medium;
+        border-radius: 50%;
+        border: 6px solid $accent-color;
+        overflow: hidden;
+
+        @media screen and (max-width: $breakpoint-sm) {
+            width: $small;
+            height: $small;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .photo-wrapper.small {
+        width: $small;
+        height: $small;
+
+        @media screen and (max-width: $breakpoint-sm) {
+            width: $xsmall;
+            height: $xsmall;
+        }
+    }
+
+    .photo-wrapper.xsmall {
+        width: $xsmall;
+        height: $xsmall;
+    }
+
+    .photo-wrapper.large {
+        width: $large;
+        height: $large;
+
+        @media screen and (max-width: $breakpoint-sm) {
+            width: $medium;
+            height: $medium;
+        }
+    }
+}
+
+.photo.small {
+    width: $small;
+}
+
+.photo.xsmall {
+    width: $xsmall;
+}
+
+.photo.large {
+    width: $large;
+
+    @media screen and (max-width: $breakpoint-sm) {
+        width: $medium;
+    }
+}

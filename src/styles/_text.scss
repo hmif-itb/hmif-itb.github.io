@@ -97,7 +97,19 @@
 }
 
 .text-white {
-    color: $white !important;
+  color: $white !important;
+}
+
+.text-xsmall {
+  font-size: $font-size-xsmall;
+}
+
+.text-small {
+  font-size: $font-size-small;
+}
+
+.text-large {
+  font-size: $font-size-large;
 }
 
 .text-hide {

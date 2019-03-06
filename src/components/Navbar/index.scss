@@ -1,0 +1,22 @@
+@import "../../styles/base";
+
+.navbar {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    .menu {
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    .menu.active, .menu:hover {
+        background-color: $accent-color;
+        color: $white;
+    }
+
+    .menu.active {
+        cursor: default;
+    }
+}
