@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "f5658b773d3190343505bb5084ba3072",
-    "url": "/static/media/fiqri.f5658b77.png"
+    "revision": "7182305266aa4961e321e3a886ae9401",
+    "url": "/static/media/irfan.71823052.png"
   },
   {
-    "revision": "b421a4da7f3ab07f1f31",
-    "url": "/static/css/main.44131e2e.chunk.css"
+    "revision": "aae3512cfa194489b32e",
+    "url": "/static/css/main.60bb4924.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "2f1b4a42e0cdbde46106",
-    "url": "/static/js/2.2f1b4a42.chunk.js"
-  },
-  {
-    "revision": "b8931e1223d15d2aa537281b635367af",
-    "url": "/static/media/logo-hmif.b8931e12.png"
+    "revision": "04e194925f60340c6a8e",
+    "url": "/static/js/2.04e19492.chunk.js"
   },
   {
     "revision": "6aa1333dedaed4cf9382ddd71892efed",
@@ -32,12 +28,12 @@ self.__precacheManifest = [
     "url": "/static/media/fahmi.8a505c77.png"
   },
   {
-    "revision": "b421a4da7f3ab07f1f31",
-    "url": "/static/js/main.b421a4da.chunk.js"
+    "revision": "f5658b773d3190343505bb5084ba3072",
+    "url": "/static/media/fiqri.f5658b77.png"
   },
   {
-    "revision": "7182305266aa4961e321e3a886ae9401",
-    "url": "/static/media/irfan.71823052.png"
+    "revision": "aae3512cfa194489b32e",
+    "url": "/static/js/main.aae3512c.chunk.js"
   },
   {
     "revision": "e6ec42b5ecdae64c62febf41563fb296",
@@ -64,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/yonas.59090e23.png"
   },
   {
-    "revision": "839649aa2044a82e47a20245dceb8868",
+    "revision": "79734cb36c7687247a10021af20a7a44",
     "url": "/index.html"
   }
 ];
