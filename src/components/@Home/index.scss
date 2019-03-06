@@ -1,9 +1,5 @@
 @import '../../styles/base';
 
-body {
-    background-color: $primary-color;
-}
-
 .home {
     display: flex;
     flex-direction: column;
@@ -15,7 +11,26 @@ body {
     }
 
     .welcome {
+        background-color: $primary-color;
         justify-content: center;
         align-content: center;
+
+        .logo {
+            height: initial;
+            width: 250px;
+            max-width: 40%;
+            align-self: center;
+            margin-bottom: 10px;
+        }
+
+        .border {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 10px solid black;
+            margin: 10px;
+        }
     }
 }
