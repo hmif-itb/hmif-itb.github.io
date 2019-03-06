@@ -1,0 +1,21 @@
+@import '../../styles/base';
+
+body {
+    background-color: $primary-color;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+
+    .page {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .welcome {
+        justify-content: center;
+        align-content: center;
+    }
+}

@@ -1,12 +1,10 @@
-/**** Colors ****/
+@import './base';
+@import './spacing';
+@import './text';
 
-$black: #020202;
-$yellow: #f8c414;
-
-/**** Custom CSS ****/
 
 * {
-  font-family: "Raleway", "Helvetice", sans-serif;
+  font-family: $primary-font, $accent-font, sans-serif;
   margin: 0;
   padding: 0;
 }
