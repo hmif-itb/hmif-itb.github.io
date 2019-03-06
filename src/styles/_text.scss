@@ -72,6 +72,10 @@
   text-transform: capitalize !important;
 }
 
+.font-weight-thin {
+  font-weight: 100 !important;
+}
+
 .font-weight-light {
   font-weight: 300 !important;
 }
@@ -80,12 +84,20 @@
   font-weight: 400 !important;
 }
 
+.font-weight-semibold {
+  font-weight: 500 !important;
+}
+
 .font-weight-bold {
-  font-weight: 700 !important;
+  font-weight: 900 !important;
 }
 
 .font-italic {
   font-style: italic !important;
+}
+
+.font-accent {
+  font-family: $accent-font;
 }
 
 .text-primary {

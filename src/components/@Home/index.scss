@@ -4,38 +4,34 @@
     display: flex;
     flex-direction: column;
 
+    * {
+        font-family: $accent-font;
+    }
+
     .page {
         display: flex;
         height: 100vh;
         flex-direction: column;
-    }
+        background-color: $accent-color;
+        color: $primary-color;
+        padding: 10%;
+        padding-bottom: 25%;
+        box-sizing: border-box;
 
-    .welcome {
-        background-color: $primary-color;
-        justify-content: center;
-        align-content: center;
-
-        * {
-            z-index: 10;
+        .tech {
+            font-size: 1.5em;
         }
 
-        .logo {
-            height: initial;
-            width: 250px;
-            max-width: 40%;
-            align-self: center;
-            margin-bottom: 10px;
+        .register {
+            a {
+                border-bottom: .3em solid $primary-color;
+                padding-bottom: 6px;
+                display: inline-block;
+            }
         }
 
-        .border {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            border: 10px solid $accent-color;
-            margin: 10px;
-            z-index: 0;
+        .quotes {
+            flex: 1 1;
         }
     }
 }
