@@ -5,6 +5,9 @@ import createBrowserHistory from 'history/createBrowserHistory';
 
 import * as serviceWorker from './serviceWorker';
 import Home from 'components/@Home';
+import 'components/index.scss';
+import 'components/spacing.scss';
+import 'components/text.scss';
 
 const history = createBrowserHistory();
 
