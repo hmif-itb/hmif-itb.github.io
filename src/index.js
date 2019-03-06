@@ -13,7 +13,7 @@ const history = createBrowserHistory();
 ReactDOM.render(
     <Router history={history}>
         <Switch>
-            <Route path='/join' component={Join} />
+            <Route path='/join-us' component={Join} />
             <Route path='/' component={Home} />
         </Switch>
     </Router>,
