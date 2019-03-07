@@ -39,6 +39,16 @@
 
                 flex: 0 0;
             }
+
+            .button-row {
+                display: flex;
+
+                .button {
+                    border: 5px solid $primary-color;
+                    padding: .7em;
+                    margin-bottom: 1em;
+                }
+            }
         }
     }
 }

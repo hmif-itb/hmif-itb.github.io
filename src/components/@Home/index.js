@@ -68,9 +68,11 @@ export default class Home extends Component {
               <span className="font-weight-thin">TECH</span>
             </div>
             <QuoteSlideshow quotes={quotes} />
+            <div className="button-row">
+              <Link to="/about-us"><div className="button">Learn More</div></Link>
+            </div>
             <div className="register font-weight-semibold">
               let's act, <a href="//bit.ly/pemimpi-n">register here.</a>
-              <span className="ml-2 text-small">or learn more <Link to="/about-us">about us</Link>.</span>
             </div>
           </div>
         </div>
