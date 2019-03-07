@@ -24,7 +24,6 @@ export default class Home extends Component {
   }
 
   renderQuote(quote, i) {
-    console.log(this.state.quoteIdx);
     let classes = "quote";
     if (this.state.quoteIdx === i) classes += " active";
     if ((this.state.quoteIdx + 1) % this.props.quotes.length === i) classes += " right";
@@ -48,7 +47,7 @@ export default class Home extends Component {
       quotes.push(this.renderQuote(this.props.quotes[i], i));
     }
     return (
-      <div className="quotes">
+      <div className="quotes mb-3">
         {quotes}
       </div>
     );

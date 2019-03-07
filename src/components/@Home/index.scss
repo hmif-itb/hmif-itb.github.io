@@ -11,27 +11,34 @@
     .page {
         display: flex;
         height: 100vh;
-        flex-direction: column;
         background-color: $accent-color;
         color: $primary-color;
         padding: 10%;
-        padding-bottom: 25%;
         box-sizing: border-box;
 
-        .tech {
-            font-size: 1.5em;
+        @media screen and (max-width: $breakpoint-md) {
+            padding-bottom: 25%;
         }
 
-        .register {
-            a {
-                border-bottom: .3em solid $primary-color;
-                padding-bottom: 6px;
-                display: inline-block;
+        .welcome {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+
+            .tech {
+                font-size: 1.5em;
+                flex: 0 0;
             }
-        }
 
-        .quotes {
-            flex: 1 1;
+            .register {
+                a {
+                    border-bottom: .3em solid $primary-color;
+                    padding-bottom: .2em;
+                    display: inline-block;
+                }
+
+                flex: 0 0;
+            }
         }
     }
 }

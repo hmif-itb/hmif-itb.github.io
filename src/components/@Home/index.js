@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 import QuoteSlideshow from "./QuoteSlideshow";
 import "./index.scss";
 
@@ -7,7 +8,7 @@ const quotes = [
   {
     text: (
       <span>
-        We nurture people to get internships. <br/>
+        We nurture people. <br/>
         We care. We build. <span className="big-underline">You achieve.</span>
       </span>
     ),
@@ -31,6 +32,25 @@ const quotes = [
     ),
     source: "Vaughn K. Lauer"
   },
+  {
+    text: (
+      <span>
+        We build the stairs to your career path. <br/>
+        <span className="big-underline">You climb</span> them.
+      </span>
+    ),
+    source: "Careers & Issues"
+  },
+  {
+    text: (
+      <span>
+        We came, <br/>
+        We compete, <br />
+        <span className="big-underline">We win</span>.
+      </span>
+    ),
+    source: "Competition & Community"
+  },
 ];
 
 export default class Home extends Component {
@@ -41,13 +61,18 @@ export default class Home extends Component {
           <title>HMIF Tech</title>
         </Helmet>
 
-        <div className="page welcome">
-          <div className="tech mb-5">
-            <span className="font-weight-bold">#HMIF</span>
-            <span className="font-weight-thin">TECH</span>
+        <div className="page">
+          <div className="welcome">
+            <div className="tech mb-5">
+              <span className="font-weight-bold">#HMIF</span>
+              <span className="font-weight-thin">TECH</span>
+            </div>
+            <QuoteSlideshow quotes={quotes} />
+            <div className="register font-weight-semibold">
+              let's act, <a href="//bit.ly/pemimpi-n">register here.</a>
+              <span className="ml-2 text-small">or learn more <Link to="/about-us">about us</Link>.</span>
+            </div>
           </div>
-          <QuoteSlideshow quotes={quotes} />
-          <div className="register font-weight-semibold">let's act, <a href="//bit.ly/pemimpi-n">register here.</a></div>
         </div>
       </div>
     );
