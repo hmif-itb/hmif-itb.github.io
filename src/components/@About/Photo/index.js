@@ -8,8 +8,8 @@ export default class Photo extends Component {
         <div className={"photo-wrapper mb-2 " + this.props.size}>
           <img src={this.props.imageSrc} alt="foto anggota"/>
         </div>
-        <div className="font-weight-bold text-center">{this.props.name}</div>
-        <div className="font-italic text-xsmall text-center">{this.props.title}</div>
+        <div className="font-weight-bold text-center text-large">{this.props.name}</div>
+        <div className="font-italic text-small text-center">{this.props.title}</div>
       </div>
     );
   }

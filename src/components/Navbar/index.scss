@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    position: absolute;
+    width: 100%;
 
     .menu {
         padding: 10px 15px;
@@ -13,8 +15,8 @@
     }
 
     .menu.active, .menu:hover {
-        background-color: $accent-color;
-        color: $white;
+        background-color: $primary-color;
+        color: $accent-color;
     }
 
     .menu.active {

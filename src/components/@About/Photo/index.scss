@@ -11,21 +11,12 @@ $xsmall: 125px;
     flex-direction: column;
     align-items: center;
 
-    @media screen and (max-width: $breakpoint-sm) {
-        width: $small;
-    }
-
     .photo-wrapper {
         width: $medium;
         height: $medium;
         border-radius: 50%;
-        border: 6px solid $accent-color;
+        border: 6px solid $primary-color;
         overflow: hidden;
-
-        @media screen and (max-width: $breakpoint-sm) {
-            width: $small;
-            height: $small;
-        }
 
         img {
             width: 100%;
@@ -35,11 +26,6 @@ $xsmall: 125px;
     .photo-wrapper.small {
         width: $small;
         height: $small;
-
-        @media screen and (max-width: $breakpoint-sm) {
-            width: $xsmall;
-            height: $xsmall;
-        }
     }
 
     .photo-wrapper.xsmall {
@@ -50,11 +36,6 @@ $xsmall: 125px;
     .photo-wrapper.large {
         width: $large;
         height: $large;
-
-        @media screen and (max-width: $breakpoint-sm) {
-            width: $medium;
-            height: $medium;
-        }
     }
 }
 
@@ -68,8 +49,4 @@ $xsmall: 125px;
 
 .photo.large {
     width: $large;
-
-    @media screen and (max-width: $breakpoint-sm) {
-        width: $medium;
-    }
 }
