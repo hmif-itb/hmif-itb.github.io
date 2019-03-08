@@ -1,13 +1,14 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import "./index.scss";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { ROUTE_HOME, ROUTE_ABOUT } from 'routes';
+import './index.scss';
 
 export default class Navbar extends Component {
 
   renderMenu() {
     let options = [
-      {text: "Home", to: "/"},
-      {text: "About", to: "/about-us"}
+      { text: 'Home', to: ROUTE_HOME },
+      { text: 'About', to: ROUTE_ABOUT }
     ];
     let menu = [];
     for (let i = 0; i < options.length; i++) {

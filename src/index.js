@@ -7,6 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import Home from 'components/@Home';
 import Join from 'components/@Join';
 import About from 'components/@About';
+import { ROUTE_HOME, ROUTE_JOIN, ROUTE_ABOUT } from 'routes';
 import 'styles/index.scss';
 
 const history = createBrowserHistory();
@@ -14,9 +15,9 @@ const history = createBrowserHistory();
 ReactDOM.render(
     <Router history={history}>
         <Switch>
-            <Route path='/about-us' component={About} />
-            <Route path='/join-us' component={Join} />
-            <Route path='/' component={Home} />
+            <Route path={ROUTE_ABOUT} component={About} />
+            <Route path={ROUTE_JOIN} component={Join} />
+            <Route path={ROUTE_HOME} component={Home} />
         </Switch>
     </Router>,
     document.getElementById('app'));
