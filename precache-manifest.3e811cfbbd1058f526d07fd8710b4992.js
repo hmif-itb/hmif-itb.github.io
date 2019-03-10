@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "e6ec42b5ecdae64c62febf41563fb296",
-    "url": "/static/media/iwang.e6ec42b5.png"
+    "revision": "f5658b773d3190343505bb5084ba3072",
+    "url": "/static/media/fiqri.f5658b77.png"
   },
   {
-    "revision": "bc62ba655ad8245ff874",
-    "url": "/static/css/main.97a35a40.chunk.css"
+    "revision": "26c3393464a843426be0",
+    "url": "/static/css/main.6b22bf7a.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "fe8d5c72ab481d50634a",
-    "url": "/static/js/2.fe8d5c72.chunk.js"
+    "revision": "e8651e1c4bf4d5157fc2",
+    "url": "/static/js/2.e8651e1c.chunk.js"
   },
   {
     "revision": "6aa1333dedaed4cf9382ddd71892efed",
     "url": "/static/media/christian.6aa1333d.png"
+  },
+  {
+    "revision": "8a505c77ba55b8c23b4e780c1c7ac201",
+    "url": "/static/media/fahmi.8a505c77.png"
   },
   {
     "revision": "7182305266aa4961e321e3a886ae9401",
@@ -28,20 +32,20 @@ self.__precacheManifest = [
     "url": "/static/media/ds.9cfadb4b.png"
   },
   {
+    "revision": "b8eca87a71c5423a57f447729416b9c4",
+    "url": "/static/media/ux.b8eca87a.png"
+  },
+  {
     "revision": "6ff85da02fc5fb678e3431083c06c33a",
     "url": "/static/media/didit.6ff85da0.png"
   },
   {
-    "revision": "8a505c77ba55b8c23b4e780c1c7ac201",
-    "url": "/static/media/fahmi.8a505c77.png"
+    "revision": "26c3393464a843426be0",
+    "url": "/static/js/main.26c33934.chunk.js"
   },
   {
-    "revision": "f5658b773d3190343505bb5084ba3072",
-    "url": "/static/media/fiqri.f5658b77.png"
-  },
-  {
-    "revision": "bc62ba655ad8245ff874",
-    "url": "/static/js/main.bc62ba65.chunk.js"
+    "revision": "e6ec42b5ecdae64c62febf41563fb296",
+    "url": "/static/media/iwang.e6ec42b5.png"
   },
   {
     "revision": "5bfeaeb2f73c0ef4297f5565ca20f445",
@@ -72,11 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/game.4d076c68.png"
   },
   {
-    "revision": "b8eca87a71c5423a57f447729416b9c4",
-    "url": "/static/media/ux.b8eca87a.png"
-  },
-  {
-    "revision": "d7215f91ae660f6e57905ee386e09445",
+    "revision": "f70b2a5b1917b9ca85cc9cc01721cd51",
     "url": "/index.html"
   }
 ];
