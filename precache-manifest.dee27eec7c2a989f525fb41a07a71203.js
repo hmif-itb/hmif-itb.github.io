@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "7182305266aa4961e321e3a886ae9401",
-    "url": "/static/media/irfan.71823052.png"
+    "revision": "f5658b773d3190343505bb5084ba3072",
+    "url": "/static/media/fiqri.f5658b77.png"
   },
   {
-    "revision": "1895a6dc9581585972f6",
-    "url": "/static/css/main.c0e9f0f4.chunk.css"
+    "revision": "84ca97451eaa6723c267",
+    "url": "/static/css/main.118723a8.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "d16efed87facc121af9b",
-    "url": "/static/js/2.d16efed8.chunk.js"
+    "revision": "be03e9b816d42819012d",
+    "url": "/static/js/2.be03e9b8.chunk.js"
+  },
+  {
+    "revision": "7182305266aa4961e321e3a886ae9401",
+    "url": "/static/media/irfan.71823052.png"
   },
   {
     "revision": "6aa1333dedaed4cf9382ddd71892efed",
@@ -28,12 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/fahmi.8a505c77.png"
   },
   {
-    "revision": "f5658b773d3190343505bb5084ba3072",
-    "url": "/static/media/fiqri.f5658b77.png"
-  },
-  {
-    "revision": "1895a6dc9581585972f6",
-    "url": "/static/js/main.1895a6dc.chunk.js"
+    "revision": "84ca97451eaa6723c267",
+    "url": "/static/js/main.84ca9745.chunk.js"
   },
   {
     "revision": "e6ec42b5ecdae64c62febf41563fb296",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/yonas.59090e23.png"
   },
   {
-    "revision": "c5bf58ad239b4419004d802b37ec9605",
+    "revision": "c55c33c3a0eee6d1d12847b97b07f153",
     "url": "/index.html"
   }
 ];
