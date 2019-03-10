@@ -1,25 +1,22 @@
-import React, { Component } from "react";
-import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
-import Navbar from "components/Navbar";
+import Navbar from 'components/Navbar';
 
-import Christian from "assets/photos/christian.png";
-import Didit from "assets/photos/didit.png";
-import Fahmi from "assets/photos/fahmi.png";
-import Fiqri from "assets/photos/fiqri.png";
-import Irfan from "assets/photos/irfan.png";
-import Iwang from "assets/photos/iwang.png";
-import Izzan from "assets/photos/izzan.png";
-import Munir from "assets/photos/munir.png";
-import Ody from "assets/photos/ody.png";
-import Timothy from "assets/photos/timothy.png";
-import Yonas from "assets/photos/yonas.png";
+import Christian from 'assets/photos/christian.png';
+import Didit from 'assets/photos/didit.png';
+import Fahmi from 'assets/photos/fahmi.png';
+import Fiqri from 'assets/photos/fiqri.png';
+import Irfan from 'assets/photos/irfan.png';
+import Iwang from 'assets/photos/iwang.png';
+import Izzan from 'assets/photos/izzan.png';
+import Munir from 'assets/photos/munir.png';
+import Ody from 'assets/photos/ody.png';
+import Timothy from 'assets/photos/timothy.png';
+import Yonas from 'assets/photos/yonas.png';
 
-import { ROUTE_JOIN } from "routes";
-
-import Photo from "components/Photo";
-import "./index.scss";
+import Photo from 'components/Photo';
+import './index.scss';
 
 export default class About extends Component {
   render() {
@@ -98,12 +95,12 @@ export default class About extends Component {
             </div>
           </div>
 
-          <div className="page contribute">
+          {/* <div className="page contribute">
             <div className="mb-3 font-italic">Dare to contribute?</div>
             <div className="d-flex">
               <Link to={ROUTE_JOIN}><div className="button text-xlarge">Join Us!</div></Link>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>
