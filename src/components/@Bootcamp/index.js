@@ -10,25 +10,31 @@ import {
   ROUTE_BOOTCAMP_GAME,
   ROUTE_BOOTCAMP_UIUX
 } from 'routes';
-
+import LogoCP from 'assets/logo/cp.png';
+import LogoCTF from 'assets/logo/ctf.png';
+import LogoBP from 'assets/logo/bp.png';
+import LogoDS from 'assets/logo/ds.png';
+import LogoGame from 'assets/logo/game.png';
+import LogoUX from 'assets/logo/ux.png';
 import './index.scss';
 
 const categories = [
-  { name: 'Business Plan', link: ROUTE_BOOTCAMP_BIZPLAN },
-  { name: 'Capture The Flag', link: ROUTE_BOOTCAMP_CTF },
-  { name: 'Competitive Programming', link: ROUTE_BOOTCAMP_CP },
-  { name: 'Data Science', link: ROUTE_BOOTCAMP_DS },
-  { name: 'Game Development', link: ROUTE_BOOTCAMP_GAME },
-  { name: 'UI / UX', link: ROUTE_BOOTCAMP_UIUX },
+  { name: 'Business Plan', link: ROUTE_BOOTCAMP_BIZPLAN, logo: LogoBP },
+  { name: 'Capture The Flag', link: ROUTE_BOOTCAMP_CTF, logo: LogoCTF },
+  { name: 'Competitive Programming', link: ROUTE_BOOTCAMP_CP, logo: LogoCP },
+  { name: 'Data Science', link: ROUTE_BOOTCAMP_DS, logo: LogoDS },
+  { name: 'Game Development', link: ROUTE_BOOTCAMP_GAME, logo: LogoGame },
+  { name: 'UI / UX', link: ROUTE_BOOTCAMP_UIUX, logo: LogoUX },
 ]
 
 export default class Bootcamp extends Component {
   renderCategoryCard(category) {
     return (
-      <div className="category col-12 col-sm-6 col-md-4">
+      <div className="category col-6 col-md-4">
         <Link to={category.link}>
           <div className="card">
-            <div className="font-weight-semibold">{category.name}</div>
+            <img alt={category.name} src={category.logo} width="50%"/>
+            <div className="font-weight-semibold text-center">{category.name}</div>
           </div>
         </Link>
       </div>
