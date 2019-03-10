@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { ROUTE_BOOTCAMP } from 'routes';
 import Photo from 'components/Photo';
+import Header from '../Header';
 import LogoDS from 'assets/logo/ds.png';
 import Christian from 'assets/photos/christian.png';
 
@@ -17,11 +18,10 @@ export default class BootcampDS extends Component {
           <title> Bootcamp HMIF - Data Science </title>
         </Helmet>
 
-        <div className="bg-black w-100 d-flex flex-column justify-content-center align-items-center py-3">
-          <img className="logo" alt="DS" src={LogoDS}/>
-          <h1 className="mb-3 font-weight-bold text-center">Data Science</h1>
-          <p className="font-italic text-small text-center">Data represent billion stories to tell. It's our job to give them a voice.</p>
-        </div>
+        <Header
+          logo={LogoDS}
+          title="Data Science"
+          quote="Data represent billion stories to tell. It's our job to give them a voice." />
 
         <div className="page container">
           <div className="row d-flex flex-column align-items-center py-5">
@@ -69,7 +69,7 @@ export default class BootcampDS extends Component {
           <div className="row my-5">
             <div className="col-12">
               <Link to={ROUTE_BOOTCAMP}>
-                <button className="button font-weight-semibold">
+                <button className="button-register font-weight-semibold">
                   Register!
                 </button>
               </Link>

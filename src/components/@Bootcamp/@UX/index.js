@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { ROUTE_BOOTCAMP } from 'routes';
 import Photo from 'components/Photo';
+import Header from '../Header';
 import LogoUX from 'assets/logo/ux.png';
 import Fahmi from 'assets/photos/fahmi.png';
 
@@ -17,11 +18,10 @@ export default class BootcampUX extends Component {
           <title> Bootcamp HMIF - UI / UX </title>
         </Helmet>
 
-        <div className="bg-black w-100 d-flex flex-column justify-content-center align-items-center py-3">
-          <img className="logo" alt="DS" src={LogoUX}/>
-          <h1 className="mb-3 font-weight-bold text-center">UI / UX</h1>
-          <p className="font-italic text-small text-center">Every great design begins with an even better story. Make yours here!</p>
-        </div>
+        <Header
+          logo={LogoUX}
+          title="UI / UX"
+          quote="Every great design begins with an even better story. Make yours here!" />
 
         <div className="page container">
           <div className="row d-flex flex-column align-items-center py-5">
@@ -54,7 +54,7 @@ export default class BootcampUX extends Component {
           <div className="row my-5">
             <div className="col-12">
               <Link to={ROUTE_BOOTCAMP}>
-                <button className="button font-weight-semibold">
+                <button className="button-register font-weight-semibold">
                   Register!
                 </button>
               </Link>
