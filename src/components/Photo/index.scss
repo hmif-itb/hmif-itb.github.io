@@ -1,4 +1,4 @@
-@import "../../../styles/base";
+@import "../../styles/base";
 
 $large: 200px;
 $medium: 175px;
@@ -49,4 +49,10 @@ $xsmall: 125px;
 
 .photo.large {
     width: $large;
+}
+
+.photo.inverted {
+    .photo-wrapper {
+        border-color: $accent-color;
+    }
 }

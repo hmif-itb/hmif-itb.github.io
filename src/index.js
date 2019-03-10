@@ -1,25 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, Switch } from 'react-router';
-import createBrowserHistory from 'history/createBrowserHistory';
+import { Route, Switch } from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
 
 import * as serviceWorker from './serviceWorker';
 import Home from 'components/@Home';
 import Join from 'components/@Join';
 import About from 'components/@About';
-import { ROUTE_HOME, ROUTE_JOIN, ROUTE_ABOUT } from 'routes';
+import Bootcamp from 'components/@Bootcamp';
+import BootcampCP from 'components/@Bootcamp/@CP';
+import { ROUTE_HOME, ROUTE_JOIN, ROUTE_ABOUT, ROUTE_BOOTCAMP, ROUTE_BOOTCAMP_CP } from 'routes';
 import 'styles/index.scss';
 
-const history = createBrowserHistory();
-
 ReactDOM.render(
-    <Router history={history}>
+    <BrowserRouter>
         <Switch>
             <Route path={ROUTE_ABOUT} component={About} />
             <Route path={ROUTE_JOIN} component={Join} />
+            <Route path={ROUTE_BOOTCAMP_CP} component={BootcampCP} />
+            <Route path={ROUTE_BOOTCAMP} component={Bootcamp} />
             <Route path={ROUTE_HOME} component={Home} />
         </Switch>
-    </Router>,
+    </BrowserRouter>,
     document.getElementById('app'));
 
 serviceWorker.unregister();

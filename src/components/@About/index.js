@@ -18,7 +18,7 @@ import Yonas from "assets/photos/yonas.png";
 
 import { ROUTE_JOIN } from "routes";
 
-import Photo from "./Photo";
+import Photo from "components/Photo";
 import "./index.scss";
 
 export default class About extends Component {
