@@ -10,6 +10,7 @@ import Bootcamp from 'components/@Bootcamp';
 import BootcampCP from 'components/@Bootcamp/@CP';
 import BootcampDS from 'components/@Bootcamp/@DS';
 import BootcampUX from 'components/@Bootcamp/@UX';
+import BootcampCTF from 'components/@Bootcamp/@CTF';
 import {
     ROUTE_HOME,
     ROUTE_ABOUT,
@@ -17,6 +18,7 @@ import {
     ROUTE_BOOTCAMP_CP,
     ROUTE_BOOTCAMP_UX,
     ROUTE_BOOTCAMP_DS,
+    ROUTE_BOOTCAMP_CTF,
 } from 'routes';
 import 'styles/index.scss';
 
@@ -27,6 +29,7 @@ ReactDOM.render(
             <Route path={ROUTE_BOOTCAMP_UX} component={BootcampUX} />
             <Route path={ROUTE_BOOTCAMP_CP} component={BootcampCP} />
             <Route path={ROUTE_BOOTCAMP_DS} component={BootcampDS} />
+            <Route path={ROUTE_BOOTCAMP_CTF} component={BootcampCTF} />
             <Route path={ROUTE_BOOTCAMP} component={Bootcamp} />
             <Route path={ROUTE_HOME} component={Home} />
         </Switch>
