@@ -32,8 +32,8 @@ export default class BootcampDS extends Component {
             <div className="col-12">
               <h2 className="mb-3">What is Data Science?</h2>
               <p>
-                Data Science bootcamp is a 3-week event that contains discussion and hands-on about basic Data Science.
-                Hosted by speakers with various experience in data science competition, participants will get a variety of new knowledge about data science.
+              Data Science bootcamp is a 3-week event that contains discussion and hands-on about basic data science.
+              Hosted by speakers with various experience in data science competition, participants will get a variety of new knowledge about data science.
               </p>
               <p className="text-small">
                 <span className="font-italic">The goal is to turn data into information, and information into insight.</span> ~ Carly Fiorina, former CEO, Hewlett-Packard Co
@@ -59,9 +59,9 @@ export default class BootcampDS extends Component {
             <div className="col-12">
               <h2 className="mb-3">Preferrable Skills</h2>
               <ul className="ml-4">
-                <li>Python Programming Language</li>
-                <li>Passion in Big Data</li>
-                <li>Curious to learn new things and explore creative solution</li>
+                <li>Programming language (Python)</li>
+                <li>Passion in big data</li>
+                <li>Curious to learn new things and explore creative solutions</li>
               </ul>
             </div>
           </div>

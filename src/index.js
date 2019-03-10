@@ -9,14 +9,16 @@ import Join from 'components/@Join';
 import About from 'components/@About';
 import Bootcamp from 'components/@Bootcamp';
 import BootcampCP from 'components/@Bootcamp/@CP';
-import BootcampDS from 'components/@Bootcamp/@DataScience';
+import BootcampDS from 'components/@Bootcamp/@DS';
+import BootcampUX from 'components/@Bootcamp/@UX';
 import {
     ROUTE_HOME,
     ROUTE_JOIN,
     ROUTE_ABOUT,
     ROUTE_BOOTCAMP,
     ROUTE_BOOTCAMP_CP,
-    ROUTE_BOOTCAMP_DS
+    ROUTE_BOOTCAMP_UX,
+    ROUTE_BOOTCAMP_DS,
 } from 'routes';
 import 'styles/index.scss';
 
@@ -25,6 +27,7 @@ ReactDOM.render(
         <Switch>
             <Route path={ROUTE_ABOUT} component={About} />
             <Route path={ROUTE_JOIN} component={Join} />
+            <Route path={ROUTE_BOOTCAMP_UX} component={BootcampUX} />
             <Route path={ROUTE_BOOTCAMP_CP} component={BootcampCP} />
             <Route path={ROUTE_BOOTCAMP_DS} component={BootcampDS} />
             <Route path={ROUTE_BOOTCAMP} component={Bootcamp} />

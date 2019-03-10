@@ -3,12 +3,12 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 import {
-  ROUTE_BOOTCAMP_BIZPLAN,
+  ROUTE_BOOTCAMP_BP,
   ROUTE_BOOTCAMP_CP,
   ROUTE_BOOTCAMP_CTF,
   ROUTE_BOOTCAMP_DS,
   ROUTE_BOOTCAMP_GAME,
-  ROUTE_BOOTCAMP_UIUX
+  ROUTE_BOOTCAMP_UX
 } from 'routes';
 import LogoCP from 'assets/logo/cp.png';
 import LogoCTF from 'assets/logo/ctf.png';
@@ -19,12 +19,12 @@ import LogoUX from 'assets/logo/ux.png';
 import './index.scss';
 
 const categories = [
-  { name: 'Business Plan', link: ROUTE_BOOTCAMP_BIZPLAN, logo: LogoBP },
+  { name: 'Business Plan', link: ROUTE_BOOTCAMP_BP, logo: LogoBP },
   { name: 'Capture The Flag', link: ROUTE_BOOTCAMP_CTF, logo: LogoCTF },
   { name: 'Competitive Programming', link: ROUTE_BOOTCAMP_CP, logo: LogoCP },
   { name: 'Data Science', link: ROUTE_BOOTCAMP_DS, logo: LogoDS },
   { name: 'Game Development', link: ROUTE_BOOTCAMP_GAME, logo: LogoGame },
-  { name: 'UI / UX', link: ROUTE_BOOTCAMP_UIUX, logo: LogoUX },
+  { name: 'UI / UX', link: ROUTE_BOOTCAMP_UX, logo: LogoUX },
 ]
 
 export default class Bootcamp extends Component {

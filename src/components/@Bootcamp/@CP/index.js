@@ -28,7 +28,7 @@ export default class BootcampCP extends Component {
             <Photo className="inverted" imageSrc={Irfan} size="large" name="Irfan Sofyana" title="Head of Competitive Programming Community" />
           </div>
 
-          <div className="row mb-5">
+          <div className="row mb-3">
             <div className="col-12">
               <h2 className="mb-3">What you will learn</h2>
               <ul className="ml-4">
@@ -43,7 +43,7 @@ export default class BootcampCP extends Component {
             </div>
           </div>
 
-          <div className="row mb-5">
+          <div className="row my-5">
             <div className="col-12">
               <Link to={ROUTE_BOOTCAMP}>
                 <button className="button font-weight-semibold">
