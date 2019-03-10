@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "f5658b773d3190343505bb5084ba3072",
-    "url": "/static/media/fiqri.f5658b77.png"
+    "revision": "5bfeaeb2f73c0ef4297f5565ca20f445",
+    "url": "/static/media/izzan.5bfeaeb2.png"
   },
   {
-    "revision": "69a286a5ddc353472767",
-    "url": "/static/css/main.e83fe4cd.chunk.css"
+    "revision": "d03775583ffc2982c3bf",
+    "url": "/static/css/main.3e29c4ae.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "afb091af127e65d46de8",
-    "url": "/static/js/2.afb091af.chunk.js"
+    "revision": "75ac3889de0255422665",
+    "url": "/static/js/2.75ac3889.chunk.js"
   },
   {
     "revision": "7182305266aa4961e321e3a886ae9401",
@@ -32,16 +32,16 @@ self.__precacheManifest = [
     "url": "/static/media/fahmi.8a505c77.png"
   },
   {
-    "revision": "69a286a5ddc353472767",
-    "url": "/static/js/main.69a286a5.chunk.js"
+    "revision": "f5658b773d3190343505bb5084ba3072",
+    "url": "/static/media/fiqri.f5658b77.png"
   },
   {
     "revision": "e6ec42b5ecdae64c62febf41563fb296",
     "url": "/static/media/iwang.e6ec42b5.png"
   },
   {
-    "revision": "5bfeaeb2f73c0ef4297f5565ca20f445",
-    "url": "/static/media/izzan.5bfeaeb2.png"
+    "revision": "d03775583ffc2982c3bf",
+    "url": "/static/js/main.d0377558.chunk.js"
   },
   {
     "revision": "a29f5ae8e541fbd4384991b1d3c6ddfc",
@@ -60,7 +60,23 @@ self.__precacheManifest = [
     "url": "/static/media/yonas.59090e23.png"
   },
   {
-    "revision": "0e5cf9f2fbf4b48e40b85eabbbeb52a6",
+    "revision": "006987f2b9f12ceafbdfaaf05d49075d",
+    "url": "/static/media/ctf.006987f2.png"
+  },
+  {
+    "revision": "9cfadb4b3bc9768830770c3f0530bf91",
+    "url": "/static/media/ds.9cfadb4b.png"
+  },
+  {
+    "revision": "4d076c6899f79b88d163733b23ee780c",
+    "url": "/static/media/game.4d076c68.png"
+  },
+  {
+    "revision": "b8eca87a71c5423a57f447729416b9c4",
+    "url": "/static/media/ux.b8eca87a.png"
+  },
+  {
+    "revision": "175f4085e263aaf3a77a486b8a9e141e",
     "url": "/index.html"
   }
 ];
