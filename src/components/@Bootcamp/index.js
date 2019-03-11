@@ -30,7 +30,7 @@ const categories = [
 export default class Bootcamp extends Component {
   renderCategoryCard(category) {
     return (
-      <div className="category col-6 col-md-4">
+      <div key={category.link} className="category col-6 col-md-4">
         <Link to={category.link}>
           <div className="card">
             <img alt={category.name} src={category.logo} width="50%"/>
@@ -92,9 +92,9 @@ export default class Bootcamp extends Component {
             src="https://docs.google.com/forms/d/e/1FAIpQLSf-pjaV51_Kuhg8BYcBzBgpQQcf8SIswYkVDbe71keH0RjQMQ/viewform?embedded=true"
             height="1500"
             title="Pendaftaran Bootcamp"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0">Loading...</iframe>
+            frameBorder="0"
+            marginHeight="0"
+            marginWidth="0">Loading...</iframe>
 
           <p className="mb-5 font-italic text-center">If you want to achieve what you never achieve, you have to be ready to do what you never do.</p>
         </div>
