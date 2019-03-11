@@ -43,6 +43,16 @@ export default class BootcampCP extends Component {
             </div>
           </div>
 
+          <div className="row mb-3">
+            <div className="col-12">
+              <h2 className="mb-3">Preferrable Skills</h2>
+              <ul className="ml-4">
+                <li>Programming language (C++)</li>
+                <li>Curious to learn algorithms and data structure</li>
+              </ul>
+            </div>
+          </div>
+
           <div className="row my-5">
             <div className="col-12">
               <Link to={ROUTE_BOOTCAMP}>
