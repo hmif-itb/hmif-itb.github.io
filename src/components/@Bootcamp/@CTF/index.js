@@ -21,25 +21,22 @@ export default class BootcampCTF extends Component {
         <Header
           logo={LogoCTF}
           title="Capture The Flag"
-          quote="" />
+          quote="Our goals are simple: safety and security. IoT without security = Internet of Threats." />
 
         <div className="page container">
           <div className="row d-flex flex-column align-items-center py-5">
             <Photo className="inverted" imageSrc={Munir} size="large" name="M Abdullah Munir" title="Head of Capture The Flag Community" />
           </div>
 
-          {/* <div className="row mb-3">
+          <div className="row mb-3">
             <div className="col-12">
-              <h2 className="mb-3">What is Capture The Flag?</h2>
-              <p>
-              Data Science bootcamp is a 3-week event that contains discussion and hands-on about basic data science.
-              Hosted by speakers with various experience in data science competition, participants will get a variety of new knowledge about data science.
-              </p>
               <p className="text-small">
-                <span className="font-italic">The goal is to turn data into information, and information into insight.</span> ~ Carly Fiorina, former CEO, Hewlett-Packard Co
+                <span className="font-italic">
+                  If you think technology can solve your security problems, then you don't understand the problems and you don't understand technology.
+                </span> ~ Bruce Schneier
               </p>
             </div>
-          </div> */}
+          </div>
 
           <div className="row mb-3">
             <div className="col-12">
@@ -55,16 +52,16 @@ export default class BootcampCTF extends Component {
             </div>
           </div>
 
-          {/* <div className="row mb-3">
+          <div className="row mb-3">
             <div className="col-12">
               <h2 className="mb-3">Preferrable Skills</h2>
               <ul className="ml-4">
-                <li>Programming language (Python)</li>
-                <li>Passion in big data</li>
+                <li>Familiar with Linux OS</li>
+                <li>Programming Language (Python)</li>
                 <li>Curious to learn new things and explore creative solutions</li>
               </ul>
             </div>
-          </div> */}
+          </div>
 
           <div className="row my-5">
             <div className="col-12">
