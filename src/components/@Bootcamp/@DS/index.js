@@ -9,6 +9,7 @@ import LogoDS from 'assets/logo/ds.png';
 import Christian from 'assets/photos/christian.png';
 
 import './index.scss';
+import SectionTitle from '../SectionTitle';
 
 export default class BootcampDS extends Component {
   render() {
@@ -30,10 +31,10 @@ export default class BootcampDS extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <h2 className="mb-3">What is Data Science?</h2>
+              <SectionTitle>What is Data Science?</SectionTitle>
               <p>
-              Data Science bootcamp is a 3-week event that contains discussion and hands-on about basic data science.
-              Hosted by speakers with various experience in data science competition, participants will get a variety of new knowledge about data science.
+                Data Science bootcamp is a 3-week event that contains discussion and hands-on about basic data science.
+                Hosted by speakers with various experience in data science competition, participants will get a variety of new knowledge about data science.
               </p>
               <p className="text-small">
                 <span className="font-italic">The goal is to turn data into information, and information into insight.</span> ~ Carly Fiorina, former CEO, Hewlett-Packard Co
@@ -43,7 +44,7 @@ export default class BootcampDS extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <h2 className="mb-3">What you will learn</h2>
+              <SectionTitle>What You Will Learn</SectionTitle>
               <ul className="ml-4">
                 <li>Introduction to Data Science</li>
                 <li>Data Science Workflow</li>
@@ -57,7 +58,7 @@ export default class BootcampDS extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <h2 className="mb-3">Preferrable Skills</h2>
+              <SectionTitle>Preferrable Skills</SectionTitle>
               <ul className="ml-4">
                 <li>Programming language (Python)</li>
                 <li>Passion in big data</li>

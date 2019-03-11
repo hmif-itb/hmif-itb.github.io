@@ -8,6 +8,7 @@ import Header from '../Header';
 import LogoBP from 'assets/logo/bp.png';
 import Timothy from 'assets/photos/timothy.png';
 
+import SectionTitle from '../SectionTitle';
 import './index.scss';
 
 export default class BootcampBP extends Component {
@@ -41,7 +42,7 @@ export default class BootcampBP extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <h2 className="mb-3">What you will learn</h2>
+              <SectionTitle>What You Will Learn</SectionTitle>
               <ul className="ml-4">
                 <li>Problem Validation</li>
                 <li>Demand Projection</li>

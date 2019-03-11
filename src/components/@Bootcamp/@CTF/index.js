@@ -8,6 +8,7 @@ import Header from '../Header';
 import LogoCTF from 'assets/logo/ctf.png';
 import Munir from 'assets/photos/munir.png';
 
+import SectionTitle from '../SectionTitle';
 import './index.scss';
 
 export default class BootcampCTF extends Component {
@@ -40,7 +41,7 @@ export default class BootcampCTF extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <h2 className="mb-3">What you will learn</h2>
+              <SectionTitle>What You Will Learn</SectionTitle>
               <ul className="ml-4">
                 <li>Introduction to Capture The Flag</li>
                 <li>Website : Header, SQL Injection, Cross Site Scripting, SSTI</li>
@@ -54,7 +55,7 @@ export default class BootcampCTF extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <h2 className="mb-3">Preferrable Skills</h2>
+              <SectionTitle>Preferrable Skills</SectionTitle>
               <ul className="ml-4">
                 <li>Familiar with Linux OS</li>
                 <li>Programming Language (Python)</li>

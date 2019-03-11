@@ -8,6 +8,7 @@ import Header from '../Header';
 import LogoUX from 'assets/logo/ux.png';
 import Fahmi from 'assets/photos/fahmi.png';
 
+import SectionTitle from '../SectionTitle';
 import './index.scss';
 
 export default class BootcampUX extends Component {
@@ -38,7 +39,7 @@ export default class BootcampUX extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <h2 className="mb-3">What you will learn</h2>
+              <SectionTitle>What You Will Learn</SectionTitle>
               <ul className="ml-4">
               <li>User-Centered Design</li>
               <li>Design Thinking</li>

@@ -16,6 +16,8 @@ import LogoBP from 'assets/logo/bp.png';
 import LogoDS from 'assets/logo/ds.png';
 import LogoGD from 'assets/logo/gd.png';
 import LogoUX from 'assets/logo/ux.png';
+
+import SectionTitle from './SectionTitle';
 import './index.scss';
 
 const categories = [
@@ -25,7 +27,7 @@ const categories = [
   { name: 'Data Science', link: ROUTE_BOOTCAMP_DS, logo: LogoDS },
   { name: 'Game Development', link: ROUTE_BOOTCAMP_GAME, logo: LogoGD },
   { name: 'UI / UX', link: ROUTE_BOOTCAMP_UX, logo: LogoUX },
-]
+];
 
 export default class Bootcamp extends Component {
   renderCategoryCard(category) {
@@ -70,25 +72,39 @@ export default class Bootcamp extends Component {
           <p className="text-center text-small">Scroll to learn more!</p>
         </div>
 
-        <div className="page container">
-          <h2 className="mt-5 mb-3">What is Bootcamp?</h2>
+        <div className="page pt-4 container">
+          <SectionTitle>What is Bootcamp?</SectionTitle>
           <p>
-            We believe that you, as a student in Institut Teknologi Bandung, have great potential.
-            You are a winner, so act like one.
+            Some say that Institut Teknologi Bandung is one of the best college in Indonesia.
+            How? One of the reasons is us, the students and our achievements.
+            So if you want our college stay on top, it's time to participate in making it better than ever.
+            There is no "them" or "others". It's your turn.
+          </p>
+          <p>
+            But where do you start?
+            Where can you learn and compete against others?
+            In Competition &amp; Community, we want you to be a champion.
+            Learn like you are ready to compete.
+            Compete like you are ready to win.
+          </p>
+          <p>
+            So we initiate this bootcamp.
+            A place where you can learn, struggle, and compete together.
+            A small start to bigger achievements.
           </p>
 
-          <h2 className="mt-5 mb-3">Who can join?</h2>
+          <SectionTitle>Who Can Join?</SectionTitle>
           <p>
             All students in Institut Teknologi Bandung can participate to make our almamater great again.
             If you have the will to compete, surpass others, and achieve what you have never achieve, this bootcamp is for you.
           </p>
 
-          <h2 className="mt-5 mb-3">Save The Date!</h2>
+          <SectionTitle>Save The Date!</SectionTitle>
           <p>
             Bootcamp will be held in 3 weeks: March 23-24, 30-31, and April 13-14.
           </p>
 
-          <h2 className="mt-5 mb-3">The categories</h2>
+          <SectionTitle>The Categories</SectionTitle>
           <p>We have 6 categories:</p>
 
           <div className="row">

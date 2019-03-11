@@ -9,6 +9,7 @@ import LogoCP from 'assets/logo/cp.png';
 import Irfan from 'assets/photos/irfan.png';
 
 import './index.scss';
+import SectionTitle from '../SectionTitle';
 
 export default class BootcampCP extends Component {
   render() {
@@ -30,7 +31,7 @@ export default class BootcampCP extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <h2 className="mb-3">What you will learn</h2>
+              <SectionTitle>What You Will Learn</SectionTitle>
               <ul className="ml-4">
                 <li>Introduction to Competitive Programming: C++ STL, Ad Hoc</li>
                 <li>Bruteforce, Greedy</li>
@@ -45,7 +46,7 @@ export default class BootcampCP extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <h2 className="mb-3">Preferrable Skills</h2>
+              <SectionTitle>Preferrable Skills</SectionTitle>
               <ul className="ml-4">
                 <li>Programming language (C++)</li>
                 <li>Curious to learn algorithms and data structure</li>
