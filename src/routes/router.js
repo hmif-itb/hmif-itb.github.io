@@ -11,7 +11,7 @@ import BootcampCTF from 'components/@Bootcamp/@CTF';
 import BootcampDS from 'components/@Bootcamp/@DS';
 import BootcampUX from 'components/@Bootcamp/@UX';
 import BootcampBP from 'components/@Bootcamp/@BP';
-import BootcampGame from 'components/@Bootcamp/@Game';
+import BootcampGD from 'components/@Bootcamp/@GD';
 
 export default class Router extends Component {
   render() {
@@ -23,7 +23,7 @@ export default class Router extends Component {
         <Route path={routes.ROUTE_BOOTCAMP_DS} component={BootcampDS} />
         <Route path={routes.ROUTE_BOOTCAMP_BP} component={BootcampBP} />
         <Route path={routes.ROUTE_BOOTCAMP_UX} component={BootcampUX} />
-        <Route path={routes.ROUTE_BOOTCAMP_GAME} component={BootcampGame} />
+        <Route path={routes.ROUTE_BOOTCAMP_GAME} component={BootcampGD} />
         <Route path={routes.ROUTE_BOOTCAMP} component={Bootcamp} />
         <Route path={routes.ROUTE_HOME} component={Home} />
       </Switch>

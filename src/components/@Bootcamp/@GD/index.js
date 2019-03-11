@@ -10,10 +10,10 @@ import Fiqri from 'assets/photos/fiqri.png';
 
 import './index.scss';
 
-export default class BootcampGame extends Component {
+export default class BootcampGD extends Component {
   render() {
     return (
-      <div className="bootcamp-game">
+      <div className="bootcamp-gd">
         <Helmet>
           <title> Bootcamp HMIF - Game Development </title>
         </Helmet>
