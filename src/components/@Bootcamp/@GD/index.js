@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { ROUTE_BOOTCAMP } from 'routes';
 import Photo from 'components/Photo';
 import Header from '../Header';
-import LogoGame from 'assets/logo/ds.png';
+import LogoGD from 'assets/logo/gd.png';
 import Fiqri from 'assets/photos/fiqri.png';
 
 import './index.scss';
@@ -19,7 +19,7 @@ export default class BootcampGD extends Component {
         </Helmet>
 
         <Header
-          logo={LogoGame}
+          logo={LogoGD}
           title="Game Development"
           quote="" />
 

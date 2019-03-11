@@ -14,7 +14,7 @@ import LogoCP from 'assets/logo/cp.png';
 import LogoCTF from 'assets/logo/ctf.png';
 import LogoBP from 'assets/logo/bp.png';
 import LogoDS from 'assets/logo/ds.png';
-import LogoGame from 'assets/logo/game.png';
+import LogoGD from 'assets/logo/gd.png';
 import LogoUX from 'assets/logo/ux.png';
 import './index.scss';
 
@@ -23,7 +23,7 @@ const categories = [
   { name: 'Capture The Flag', link: ROUTE_BOOTCAMP_CTF, logo: LogoCTF },
   { name: 'Competitive Programming', link: ROUTE_BOOTCAMP_CP, logo: LogoCP },
   { name: 'Data Science', link: ROUTE_BOOTCAMP_DS, logo: LogoDS },
-  { name: 'Game Development', link: ROUTE_BOOTCAMP_GAME, logo: LogoGame },
+  { name: 'Game Development', link: ROUTE_BOOTCAMP_GAME, logo: LogoGD },
   { name: 'UI / UX', link: ROUTE_BOOTCAMP_UX, logo: LogoUX },
 ]
 
@@ -56,8 +56,16 @@ export default class Bootcamp extends Component {
           <title> Bootcamp HMIF </title>
         </Helmet>
 
-        <div className="page bg-black w-100 d-flex flex-column justify-content-center align-items-center">
-          <h1 className="mt-5 font-weight-bold text-center">HMIF #Bootcamp</h1>
+        <div className="page py-5 bg-black w-100 d-flex flex-column justify-content-center align-items-center">
+          <h1 className="font-weight-bold text-center">HMIF #Bootcamp</h1>
+          <div className="d-flex flex-row justify-content-center my-3">
+            <img alt="CP" src={LogoCP} className="logo-small"/>
+            <img alt="CTF" src={LogoCTF} className="logo-small"/>
+            <img alt="DS" src={LogoDS} className="logo-small"/>
+            <img alt="GD" src={LogoGD} className="logo-small"/>
+            <img alt="BP" src={LogoBP} className="logo-small"/>
+            <img alt="UX" src={LogoUX} className="logo-small"/>
+          </div>
           <div className="text-center font-italic text-white mb-2">Dare to achieve more?</div>
           <p className="text-center text-small">Scroll to learn more!</p>
         </div>

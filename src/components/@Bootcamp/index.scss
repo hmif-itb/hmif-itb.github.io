@@ -7,6 +7,14 @@
   background-color: $primary-color;
   color: $accent-color;
 
+  .logo-small {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 50px;
+    max-height: 50px;
+  }
+
   .page {
     min-height: 100vh;
   }
