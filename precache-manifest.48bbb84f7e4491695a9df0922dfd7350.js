@@ -1,23 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "5dfe4982fcb091575894613c7e3d97de",
-    "url": "/static/media/timothy.5dfe4982.png"
+    "revision": "f5658b773d3190343505bb5084ba3072",
+    "url": "/static/media/fiqri.f5658b77.png"
   },
   {
-    "revision": "757636568dabdd18c972",
-    "url": "/static/css/main.f14ab9f9.chunk.css"
+    "revision": "09ac3de246f86aa41240",
+    "url": "/static/css/main.d8c26942.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "c181cd981471d110e1d8",
-    "url": "/static/js/2.c181cd98.chunk.js"
+    "revision": "cf27791fd8cb35d3b105",
+    "url": "/static/js/2.cf27791f.chunk.js"
+  },
+  {
+    "revision": "006987f2b9f12ceafbdfaaf05d49075d",
+    "url": "/static/media/ctf.006987f2.png"
   },
   {
     "revision": "9cfadb4b3bc9768830770c3f0530bf91",
     "url": "/static/media/ds.9cfadb4b.png"
+  },
+  {
+    "revision": "4d076c6899f79b88d163733b23ee780c",
+    "url": "/static/media/gd.4d076c68.png"
+  },
+  {
+    "revision": "b8eca87a71c5423a57f447729416b9c4",
+    "url": "/static/media/ux.b8eca87a.png"
   },
   {
     "revision": "6aa1333dedaed4cf9382ddd71892efed",
@@ -28,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/fahmi.8a505c77.png"
   },
   {
-    "revision": "f5658b773d3190343505bb5084ba3072",
-    "url": "/static/media/fiqri.f5658b77.png"
+    "revision": "09ac3de246f86aa41240",
+    "url": "/static/js/main.09ac3de2.chunk.js"
   },
   {
     "revision": "7182305266aa4961e321e3a886ae9401",
@@ -40,16 +52,8 @@ self.__precacheManifest = [
     "url": "/static/media/munir.a29f5ae8.png"
   },
   {
-    "revision": "757636568dabdd18c972",
-    "url": "/static/js/main.75763656.chunk.js"
-  },
-  {
-    "revision": "006987f2b9f12ceafbdfaaf05d49075d",
-    "url": "/static/media/ctf.006987f2.png"
-  },
-  {
-    "revision": "b8eca87a71c5423a57f447729416b9c4",
-    "url": "/static/media/ux.b8eca87a.png"
+    "revision": "5dfe4982fcb091575894613c7e3d97de",
+    "url": "/static/media/timothy.5dfe4982.png"
   },
   {
     "revision": "6ff85da02fc5fb678e3431083c06c33a",
@@ -72,11 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/yonas.59090e23.png"
   },
   {
-    "revision": "4d076c6899f79b88d163733b23ee780c",
-    "url": "/static/media/game.4d076c68.png"
-  },
-  {
-    "revision": "d3ac13fa50d9453d84a3fb7c1d190772",
+    "revision": "7c9764f849ed291711db47ba9269c806",
     "url": "/index.html"
   }
 ];
