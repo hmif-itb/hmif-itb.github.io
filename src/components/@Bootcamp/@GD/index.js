@@ -55,7 +55,7 @@ export default class BootcampGD extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <SectionTitle>B, B, B, Benefits!!!</SectionTitle>
+              <SectionTitle>Benefits</SectionTitle>
               <ul className="ml-4">
                 <li>Create your own game (duh!).</li>
                 <li>Understanding how gameplay, design, and story determines your game significantly!</li>

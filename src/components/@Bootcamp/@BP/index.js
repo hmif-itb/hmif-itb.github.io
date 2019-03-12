@@ -43,15 +43,72 @@ export default class BootcampBP extends Component {
           <div className="row mb-3">
             <div className="col-12">
               <SectionTitle>What You Will Learn</SectionTitle>
-              <ul className="ml-4">
-                <li>Problem Validation</li>
-                <li>Demand Projection</li>
-                <li>Leveraging Opportunity</li>
-                <li>Market Trends</li>
-                <li>Business Insights</li>
-                <li>Market Sizing</li>
-                <li>... and many more!</li>
-              </ul>
+              <ol className="ml-4">
+                <li>
+                  <span className="font-weight-bold">ICT Product Ideation</span>:
+                  Aims to inspire  students to use their creativity to develop innovative, cost-effective and practical solutions to accessibility-related issues resulting in digital business.
+                </li>
+                <li>
+                  <span className="font-weight-bold">ICT Business Plan</span>:
+                  Aims to stimulate entrepreneurship among students. Teams are challenged to conceive of a new service or product offering, and then create a business plan and concept pitch aimed at convincing potential investors to finance the business.
+                </li>
+                <li>
+                  <span className="font-weight-bold">Business IT Case</span>:
+                  Upgrading the problem solving abilities of participants in analyzing and solving various business cases provided by providing solutions through the Information Technology approach.
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div className="row mb-3">
+            <div className="col-12">
+              <SectionTitle>What Makes This Bootcamp Different?</SectionTitle>
+              <ol className="ml-4">
+                <li>Study case learning</li>
+                <li>Competition winner and experienced speaker</li>
+                <li>Practical hands-on</li>
+                <li>Mini competition</li>
+              </ol>
+            </div>
+          </div>
+
+          <div className="row mb-3">
+            <div className="col-12">
+              <SectionTitle>Timeline</SectionTitle>
+              ICT Business Plan Bootcamp will be held in 3 days (exact time will follow):
+              <ol className="ml-4">
+                <li>Saturday, March 23rd, 2019</li>
+                <li>Saturday, March 30th, 2019</li>
+                <li>Saturday, April 13th, 2019</li>
+              </ol>
+            </div>
+          </div>
+
+          <div className="row mb-3">
+            <div className="col-12">
+              <SectionTitle>Speaker</SectionTitle>
+              <ol className="ml-4">
+                <li>ICT Business Plan Community
+                  <ul className="ml-4">
+                    <li>Timothy Sihombing</li>
+                    <li>Deryan Tejasatya</li>
+                    <li>Savira Nadela</li>
+                  </ul>
+                </li>
+                <li>Progression Consulting Group
+                  <ul className="ml-4">
+                    <li>Yeremia Hartanto</li>
+                    <li>Geraldine Hizkia</li>
+                  </ul>
+                </li>
+                <li>Phoenix
+                  <ul className="ml-4">
+                    <li>Albert Sahala</li>
+                    <li>Rifda Annelies</li>
+                    <li>Johan Purnomo</li>
+                  </ul>
+                </li>
+              </ol>
             </div>
           </div>
 

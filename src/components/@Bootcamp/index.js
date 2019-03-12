@@ -101,15 +101,24 @@ export default class Bootcamp extends Component {
 
           <SectionTitle>Save The Date!</SectionTitle>
           <p>
-            Bootcamp will be held in 3 weeks: March 23-24, 30-31, and April 13-14.
+            Bootcamp will be held in 6 days: March 23-24, 30-31, and April 13-14.
           </p>
 
           <SectionTitle>The Categories</SectionTitle>
-          <p>We have 6 categories:</p>
+          <p>We have 6 categories. Click on the category to see the details.</p>
 
           <div className="row">
             {this.renderCategoriesCards()}
           </div>
+
+          <SectionTitle>How Can I Join?</SectionTitle>
+          <p>
+            Fill this form below! This bootcamp is <span className="font-weight-semibold">free</span>.
+            The seat is limited (around 20 persons), so we want to limit this bootcamp only for those who have commitment.
+            So, if it is necessary, we will conduct a selection (we will contact you as soon as possible, after you fill this form).
+            Additionally, there will be commitment fee 100k.
+            This commitment fee <span className="font-weight-semibold">will be returned</span> by the end of Bootcamp if you attend all of our agenda (or you have good reasons to not attend).
+          </p>
 
           <iframe
             className="my-3"

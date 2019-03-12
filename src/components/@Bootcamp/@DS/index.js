@@ -31,13 +31,18 @@ export default class BootcampDS extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <SectionTitle>What is Data Science?</SectionTitle>
-              <p>
-                Data Science bootcamp is a 3-week event that contains discussion and hands-on about basic data science.
-                Hosted by speakers with various experience in data science competition, participants will get a variety of new knowledge about data science.
-              </p>
               <p className="text-small">
                 <span className="font-italic">The goal is to turn data into information, and information into insight.</span> ~ Carly Fiorina, former CEO, Hewlett-Packard Co
+              </p>
+            </div>
+          </div>
+
+          <div className="row mb-3">
+            <div className="col-12">
+              <SectionTitle>What is Data Science?</SectionTitle>
+              <p>
+                Data Science bootcamp is a 3-week basic data science training that contains discussion and hands-on learning.
+                Trained by speakers with various experience in data science competition, participants will get a variety of new knowledge about data science.
               </p>
             </div>
           </div>
@@ -63,6 +68,17 @@ export default class BootcampDS extends Component {
                 <li>Programming language (Python)</li>
                 <li>Passion in big data</li>
                 <li>Curious to learn new things and explore creative solutions</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="row mb-3">
+            <div className="col-12">
+              <SectionTitle>Benefits</SectionTitle>
+              <ul className="ml-4">
+                <li>Gain exposure to data science competition</li>
+                <li>Expand your network with other data science enthusiast and team up</li>
+                <li>Tips &amp; trick from the winner of data science competition (Gemastik, CIMB 3D Conquest, Airliquide Data Challenge, Kaggle, and many more...)</li>
               </ul>
             </div>
           </div>

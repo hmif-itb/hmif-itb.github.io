@@ -36,10 +36,9 @@ export default class BootcampCP extends Component {
                 <li>Introduction to Competitive Programming: C++ STL, Ad Hoc</li>
                 <li>Bruteforce, Greedy</li>
                 <li>Math: Combinatorics, Number Theory</li>
-                <li>Graph: BFS, DFS, Toposort, MST, Shortest Path, Network Flow</li>
+                <li>Graph: BFS, DFS, Toposort, MST, Shortest Path</li>
                 <li>Dynamic Programming: Prefix Sum, LCS, LIS, Coin Change, Bitmask</li>
                 <li>Data Structure: Union-Find Disjoint Set, Segment Tree, Binary Indexed Tree</li>
-                <li>Computational Geometry: Point, Line, Segment, Convex Hull</li>
               </ul>
             </div>
           </div>
