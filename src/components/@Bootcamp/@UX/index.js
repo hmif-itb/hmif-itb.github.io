@@ -66,7 +66,7 @@ export default class BootcampUX extends Component {
             <div className="col-12">
               <SectionTitle>Preferrable Skills</SectionTitle>
               <ul className="ml-4">
-                <li>Has basic knowledge of Illustrator/CorelDraw usage</li>
+                <li>Has basic knowledge of graphic design softwares (Illustrator, CorelDraw, or any of your choices)</li>
                 <li>Has basic experience of graphic design</li>
                 <li>Curious to learn new things and explore creative solutions</li>
               </ul>

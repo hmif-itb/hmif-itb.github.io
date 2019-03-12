@@ -65,7 +65,7 @@ export default class BootcampBP extends Component {
               <SectionTitle>What Makes This Bootcamp Different?</SectionTitle>
               <ol className="ml-4">
                 <li>Study case learning</li>
-                <li>Competition winner and experienced speaker</li>
+                <li>Competition winners and experienced speakers</li>
                 <li>Practical hands-on</li>
                 <li>Mini competition</li>
               </ol>
@@ -86,7 +86,7 @@ export default class BootcampBP extends Component {
 
           <div className="row mb-3">
             <div className="col-12">
-              <SectionTitle>Speaker</SectionTitle>
+              <SectionTitle>Speakers</SectionTitle>
               <ol className="ml-4">
                 <li>ICT Business Plan Community
                   <ul className="ml-4">
@@ -95,7 +95,7 @@ export default class BootcampBP extends Component {
                     <li>Savira Nadela</li>
                   </ul>
                 </li>
-                <li>Progression Consulting Group
+                <li>Progressio Consulting Group
                   <ul className="ml-4">
                     <li>Yeremia Hartanto</li>
                     <li>Geraldine Hizkia</li>

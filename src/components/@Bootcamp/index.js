@@ -116,7 +116,7 @@ export default class Bootcamp extends Component {
             Fill this form below! This bootcamp is <span className="font-weight-semibold">free</span>.
             The seat is limited (around 20 persons), so we want to limit this bootcamp only for those who have commitment.
             So, if it is necessary, we will conduct a selection (we will contact you as soon as possible, after you fill this form).
-            Additionally, there will be commitment fee 100k.
+            Additionally, there will be 100k commitment fee for those who passed our test and selected to be participant.
             This commitment fee <span className="font-weight-semibold">will be returned</span> by the end of Bootcamp if you attend all of our agenda (or you have good reasons to not attend).
           </p>
 
