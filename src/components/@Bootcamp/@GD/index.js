@@ -65,6 +65,21 @@ export default class BootcampGD extends Component {
             </div>
           </div>
 
+          <div className="row mb-3">
+            <div className="col-12">
+              <SectionTitle>Timeline</SectionTitle>
+              Game Development Bootcamp will be held in 6 days:
+              <ol className="ml-4">
+                <li>Saturday, March 23rd, 2019 (1 pm - 6 pm) </li>
+                <li>Sunday, March 24th, 2019 (1 pm - 6 pm) </li>
+                <li>Saturday, March 30th, 2019 (1 pm - 6 pm)</li>
+                <li>Sunday, March 31st, 2019 (1 pm - 6 pm)</li>
+                <li>Saturday, April 13th, 2019 (1 pm - 6 pm) </li>
+                <li>Sunday, April 14th, 2019 (1 pm - 6 pm) </li>
+              </ol>
+            </div>
+          </div>
+
           <div className="row my-5">
             <div className="col-12">
               <Link to={ROUTE_BOOTCAMP}>

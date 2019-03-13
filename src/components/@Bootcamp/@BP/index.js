@@ -75,11 +75,11 @@ export default class BootcampBP extends Component {
           <div className="row mb-3">
             <div className="col-12">
               <SectionTitle>Timeline</SectionTitle>
-              ICT Business Plan Bootcamp will be held in 3 days (exact time will follow):
+              ICT Business Plan Bootcamp will be held in 3 days:
               <ol className="ml-4">
-                <li>Saturday, March 23rd, 2019</li>
-                <li>Saturday, March 30th, 2019</li>
-                <li>Saturday, April 13th, 2019</li>
+                <li>Saturday, March 23rd, 2019 (8 am - 12 pm) </li>
+                <li>Saturday, March 30th, 2019 (1 pm - 6 pm)</li>
+                <li>Saturday, April 13th, 2019 (1 pm - 6 pm) </li>
               </ol>
             </div>
           </div>
