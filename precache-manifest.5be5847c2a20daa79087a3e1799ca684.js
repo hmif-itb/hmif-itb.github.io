@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/fiqri.f5658b77.png"
   },
   {
-    "revision": "2acf65e36c150cabd945",
+    "revision": "271a8a34f870251c8c96",
     "url": "/static/css/main.d200db48.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/fahmi.8a505c77.png"
   },
   {
-    "revision": "2acf65e36c150cabd945",
-    "url": "/static/js/main.2acf65e3.chunk.js"
+    "revision": "271a8a34f870251c8c96",
+    "url": "/static/js/main.271a8a34.chunk.js"
   },
   {
     "revision": "7182305266aa4961e321e3a886ae9401",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/yonas.59090e23.png"
   },
   {
-    "revision": "5f4113213e374e1eb88e25537ebdfb9c",
+    "revision": "3dee1a46d2fd97ba405c3ea1bac257bf",
     "url": "/index.html"
   }
 ];
