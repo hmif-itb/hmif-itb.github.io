@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 import { ROUTE_BOOTCAMP } from 'routes';
+import PageComponent from 'components/PageComponent';
 import Photo from 'components/Photo';
 import Header from '../Header';
 import LogoUX from 'assets/logo/ux.png';
@@ -11,7 +12,7 @@ import Fahmi from 'assets/photos/fahmi.png';
 import SectionTitle from '../SectionTitle';
 import './index.scss';
 
-export default class BootcampUX extends Component {
+export default class BootcampUX extends PageComponent {
   render() {
     return (
       <div className="bootcamp-ux">

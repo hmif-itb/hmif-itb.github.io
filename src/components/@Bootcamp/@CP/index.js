@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 import { ROUTE_BOOTCAMP } from 'routes';
+import PageComponent from 'components/PageComponent';
 import Photo from 'components/Photo';
 import Header from '../Header';
 import LogoCP from 'assets/logo/cp.png';
@@ -11,7 +12,7 @@ import Irfan from 'assets/photos/irfan.png';
 import './index.scss';
 import SectionTitle from '../SectionTitle';
 
-export default class BootcampCP extends Component {
+export default class BootcampCP extends PageComponent {
   render() {
     return (
       <div className="bootcamp-cp">

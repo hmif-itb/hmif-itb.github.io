@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-import QuoteSlideshow from './QuoteSlideshow';
+
 import { ROUTE_ABOUT } from 'routes';
+import PageComponent from 'components/PageComponent';
+
+import QuoteSlideshow from './QuoteSlideshow';
 import quotes from './quotes';
 import './index.scss';
 
-export default class Home extends Component {
+export default class Home extends PageComponent {
   render() {
     return (
       <div className="home">

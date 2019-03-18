@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
@@ -10,6 +10,7 @@ import {
   ROUTE_BOOTCAMP_GAME,
   ROUTE_BOOTCAMP_UX
 } from 'routes';
+import PageComponent from 'components/PageComponent';
 import LogoCP from 'assets/logo/cp.png';
 import LogoCTF from 'assets/logo/ctf.png';
 import LogoBP from 'assets/logo/bp.png';
@@ -29,7 +30,7 @@ const categories = [
   { name: 'UI / UX', link: ROUTE_BOOTCAMP_UX, logo: LogoUX },
 ];
 
-export default class Bootcamp extends Component {
+export default class Bootcamp extends PageComponent {
   renderCategoryCard(category) {
     return (
       <div key={category.link} className="category col-6 col-md-4">
@@ -49,6 +50,10 @@ export default class Bootcamp extends Component {
       categoriesCards.push(this.renderCategoryCard(categories[i]));
     }
     return categoriesCards;
+  }
+
+  componentDidMount() {
+    window.scrollTo(0,0);
   }
 
   render() {
@@ -113,23 +118,27 @@ export default class Bootcamp extends Component {
 
           <SectionTitle>How Can I Join?</SectionTitle>
           <p>
-            Fill this form below! This bootcamp is <span className="font-weight-semibold">free</span>.
+            This bootcamp is <span className="font-weight-semibold">free</span>.
             The seat is limited (around 20 persons), so we want to limit this bootcamp only for those who have commitment.
             So, if it is necessary, we will conduct a selection (we will contact you as soon as possible, after you fill this form).
             Additionally, there will be 100k commitment fee for those who passed our test and selected to be participant.
             This commitment fee <span className="font-weight-semibold">will be returned</span> by the end of Bootcamp if you attend all of our agenda (or you have good reasons to not attend).
           </p>
 
-          <iframe
+          <p>
+            But, sorry.... the registration is closed! See you next semester!
+          </p>
+
+          {/* <iframe
             className="my-3"
             src="https://docs.google.com/forms/d/e/1FAIpQLSf-pjaV51_Kuhg8BYcBzBgpQQcf8SIswYkVDbe71keH0RjQMQ/viewform?embedded=true"
             height="1500"
             title="Pendaftaran Bootcamp"
             frameBorder="0"
             marginHeight="0"
-            marginWidth="0">Loading...</iframe>
+            marginWidth="0">Loading...</iframe> */}
 
-          <p className="mb-5 font-italic text-center">If you want to achieve what you never achieve, you have to be ready to do what you never do.</p>
+          <p className="my-5 font-italic text-center">If you want to achieve what you never achieve, you have to be ready to do what you never do.</p>
         </div>
       </div>
     );

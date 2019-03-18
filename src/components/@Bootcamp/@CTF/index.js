@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 import { ROUTE_BOOTCAMP } from 'routes';
+import PageComponent from 'components/PageComponent';
 import Photo from 'components/Photo';
 import Header from '../Header';
 import LogoCTF from 'assets/logo/ctf.png';
@@ -11,7 +12,7 @@ import Munir from 'assets/photos/munir.png';
 import SectionTitle from '../SectionTitle';
 import './index.scss';
 
-export default class BootcampCTF extends Component {
+export default class BootcampCTF extends PageComponent {
   render() {
     return (
       <div className="bootcamp-ds">

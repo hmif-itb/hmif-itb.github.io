@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 
+import PageComponent from 'components/PageComponent';
 import Navbar from 'components/Navbar';
 
 import Christian from 'assets/photos/christian.png';
@@ -18,7 +19,7 @@ import Yonas from 'assets/photos/yonas.png';
 import Photo from 'components/Photo';
 import './index.scss';
 
-export default class About extends Component {
+export default class About extends PageComponent {
   render() {
     return (
       <div className="about">
