@@ -7,9 +7,10 @@
   background-color: $primary-color;
   color: $accent-color;
   padding-top: 20px;
+  min-height: 100vh;
 
   // https://stackoverflow.com/questions/8626638/how-to-display-loading-message-when-an-iframe-is-loading
   .registration-loader {
-    background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100% 100%"><text fill="%23000000" x="50%" y="10%" font-family="\'Lucida Grande\', sans-serif" font-size="24" text-anchor="middle">Loading ...</text></svg>') 0px 0px no-repeat;
+    background: url('/loading.gif') center 50% no-repeat;
   }
 }
