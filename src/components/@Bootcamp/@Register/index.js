@@ -29,7 +29,7 @@ export default class BootcampRegister extends PageComponent {
                   frameBorder="0"
                   scrolling="yes"
                   seamless="seamless"
-                  height="653"
+                  height="466"
                   width="100%"
                 >
                   Loading Registration Form ...
