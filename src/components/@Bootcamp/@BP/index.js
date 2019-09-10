@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
-import { ROUTE_BOOTCAMP } from 'routes';
+import { ROUTE_BOOTCAMP_REGISTER } from 'routes';
 import PageComponent from 'components/PageComponent';
 import Photo from 'components/Photo';
 import Header from '../Header';
@@ -78,9 +78,9 @@ export default class BootcampBP extends PageComponent {
               <SectionTitle>Timeline</SectionTitle>
               ICT Business Plan Bootcamp will be held in 3 days:
               <ol className="ml-4">
-                <li>Saturday, March 23rd, 2019 (8 am - 12 pm) </li>
-                <li>Saturday, March 30th, 2019 (1 pm - 6 pm)</li>
-                <li>Saturday, April 13th, 2019 (1 pm - 6 pm) </li>
+                <li>Sunday, Sept 29th, 2019 (8 am - 12 pm) </li>
+                <li>Sunday, Oct 13th, 2019 (8 am - 12 pm)</li>
+                <li>Sunday, Oct 20th, 2019 (8 am - 12 pm) </li>
               </ol>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default class BootcampBP extends PageComponent {
 
           <div className="row my-5">
             <div className="col-12">
-              <Link to={ROUTE_BOOTCAMP}>
+              <Link to={ROUTE_BOOTCAMP_REGISTER}>
                 <button className="button-register font-weight-semibold">
                   Register!
                 </button>

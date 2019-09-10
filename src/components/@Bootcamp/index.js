@@ -8,7 +8,8 @@ import {
   ROUTE_BOOTCAMP_CTF,
   ROUTE_BOOTCAMP_DS,
   ROUTE_BOOTCAMP_GAME,
-  ROUTE_BOOTCAMP_UX
+  ROUTE_BOOTCAMP_UX,
+  ROUTE_BOOTCAMP_REGISTER,
 } from 'routes';
 import PageComponent from 'components/PageComponent';
 import LogoCP from 'assets/logo/cp.png';
@@ -53,7 +54,15 @@ export default class Bootcamp extends PageComponent {
   }
 
   componentDidMount() {
-    window.scrollTo(0,0);
+    super.componentDidMount();
+    const scriptCognito = document.createElement("script");
+    const scriptFormLoader = document.createElement("script");
+
+    scriptCognito.src = "https://services.cognitoforms.com/scripts/embed.js";
+    scriptFormLoader.innerHTML = "Cognito.load(\"forms\", { id: \"1\" }); alert(1)";
+
+    document.body.appendChild(scriptCognito);
+    // document.body.appendChild(scriptFormLoader);
   }
 
   render() {
@@ -106,7 +115,8 @@ export default class Bootcamp extends PageComponent {
 
           <SectionTitle>Save The Date!</SectionTitle>
           <p>
-            Bootcamp will be held in 6 days: March 23-24, 30-31, and April 13-14.
+            Bootcamp will be held in 6 days: 29 Sept, 13 Oct, 20 Oct, 27 Oct, 3 Nov, and 10 Nov.
+            See the details on each categories.
           </p>
 
           <SectionTitle>The Categories</SectionTitle>
@@ -125,18 +135,13 @@ export default class Bootcamp extends PageComponent {
             This commitment fee <span className="font-weight-semibold">will be returned</span> by the end of Bootcamp if you attend all of our agenda (or you have good reasons to not attend).
           </p>
 
-          <p>
-            But, sorry.... the registration is closed! See you next semester!
-          </p>
-
-          {/* <iframe
-            className="my-3"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSf-pjaV51_Kuhg8BYcBzBgpQQcf8SIswYkVDbe71keH0RjQMQ/viewform?embedded=true"
-            height="1500"
-            title="Pendaftaran Bootcamp"
-            frameBorder="0"
-            marginHeight="0"
-            marginWidth="0">Loading...</iframe> */}
+          <div className="my-5 d-flex flex-row justify-content-center">
+            <Link to={ROUTE_BOOTCAMP_REGISTER}>
+              <button className="button-register font-weight-semibold">
+                Register Now!
+              </button>
+            </Link>
+          </div>
 
           <p className="my-5 font-italic text-center">If you want to achieve what you never achieve, you have to be ready to do what you never do.</p>
         </div>

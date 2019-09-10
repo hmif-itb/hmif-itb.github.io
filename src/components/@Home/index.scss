@@ -48,6 +48,13 @@
                     border: 5px solid $primary-color;
                     padding: .7em;
                     margin-bottom: 1em;
+                    margin-left: 1em;
+                }
+
+                a:first-child {
+                    .button {
+                        margin-left: 0;
+                    }
                 }
             }
         }
