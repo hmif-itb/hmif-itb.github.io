@@ -59,12 +59,12 @@ export default class BootcampCP extends PageComponent {
               <SectionTitle>Timeline</SectionTitle>
               Competitive Programming Bootcamp will be held in 6 days:
               <ol className="ml-4">
-                <li>Sunday, Sept 29th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Oct 13th, 2019 (1 pm - 6 pm)</li>
+                <li>Saturday, Oct 12th, 2019 (1 pm - 6 pm)</li>
                 <li>Sunday, Oct 20th, 2019 (1 pm - 6 pm)</li>
                 <li>Sunday, Oct 27th, 2019 (1 pm - 6 pm)</li>
                 <li>Sunday, Nov 3rd, 2019 (1 pm - 6 pm)</li>
                 <li>Sunday, Nov 10th, 2019 (1 pm - 6 pm)</li>
+                <li>Sunday, Nov 17th, 2019 (1 pm - 6 pm)</li>
               </ol>
             </div>
           </div>

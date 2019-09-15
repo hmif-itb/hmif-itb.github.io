@@ -78,9 +78,9 @@ export default class BootcampBP extends PageComponent {
               <SectionTitle>Timeline</SectionTitle>
               ICT Business Plan Bootcamp will be held in 3 days:
               <ol className="ml-4">
-                <li>Sunday, Sept 29th, 2019 (8 am - 12 pm) </li>
-                <li>Sunday, Oct 13th, 2019 (8 am - 12 pm)</li>
-                <li>Sunday, Oct 20th, 2019 (8 am - 12 pm) </li>
+                <li>Sunday, Oct 13th, 2019 (8 am - 12 pm) </li>
+                <li>Sunday, Oct 20th, 2019 (8 am - 12 pm)</li>
+                <li>Sunday, Oct 27th, 2019 (8 am - 12 pm) </li>
               </ol>
             </div>
           </div>

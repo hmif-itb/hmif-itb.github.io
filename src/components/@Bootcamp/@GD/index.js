@@ -71,12 +71,12 @@ export default class BootcampGD extends PageComponent {
               <SectionTitle>Timeline</SectionTitle>
               Game Development Bootcamp will be held in 6 days:
               <ol className="ml-4">
-                <li>Sunday, Sept 29th, 2019 (8 am - 12 pm)</li>
                 <li>Sunday, Oct 13th, 2019 (8 am - 12 pm)</li>
                 <li>Sunday, Oct 20th, 2019 (8 am - 12 pm)</li>
                 <li>Sunday, Oct 27th, 2019 (8 am - 12 pm)</li>
                 <li>Sunday, Nov 3rd, 2019 (8 am - 12 pm)</li>
                 <li>Sunday, Nov 10th, 2019 (8 am - 12 pm)</li>
+                <li>Sunday, Nov 17th, 2019 (8 am - 12 pm)</li>
               </ol>
             </div>
           </div>
