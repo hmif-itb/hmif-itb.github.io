@@ -13,6 +13,7 @@ import BootcampDS from 'components/@Bootcamp/@DS';
 import BootcampUX from 'components/@Bootcamp/@UX';
 import BootcampBP from 'components/@Bootcamp/@BP';
 import BootcampGD from 'components/@Bootcamp/@GD';
+import CompeteAndShare from 'components/@CompeteAndShare';
 
 export default class Router extends Component {
   render() {
@@ -27,6 +28,7 @@ export default class Router extends Component {
         <Route path={routes.ROUTE_BOOTCAMP_UX} component={BootcampUX} />
         <Route path={routes.ROUTE_BOOTCAMP_GAME} component={BootcampGD} />
         <Route path={routes.ROUTE_BOOTCAMP} component={Bootcamp} />
+        <Route path={routes.ROUTE_COMPETITION_SHARING} component={CompeteAndShare} />
         <Route path={routes.ROUTE_HOME} component={Home} />
       </Switch>
     );

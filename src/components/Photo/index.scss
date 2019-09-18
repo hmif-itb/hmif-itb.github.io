@@ -4,12 +4,17 @@ $large: 200px;
 $medium: 175px;
 $small: 150px;
 $xsmall: 125px;
+$xxsmall: 100px;
 
 .photo {
     width: $medium;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    &.xxsmall {
+        width: $xxsmall;
+    }
 
     .photo-wrapper {
         width: $medium;
@@ -32,6 +37,11 @@ $xsmall: 125px;
     .photo-wrapper.xsmall {
         width: $xsmall;
         height: $xsmall;
+    }
+
+    .photo-wrapper.xxsmall {
+        width: $xxsmall;
+        height: $xxsmall;
     }
 
     .photo-wrapper.large {

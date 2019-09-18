@@ -1,5 +1,6 @@
 exports.ROUTE_HOME = '/';
 exports.ROUTE_ABOUT = '/about';
+exports.ROUTE_COMPETITION_SHARING = '/CompeteAndShare';
 
 exports.ROUTE_BOOTCAMP = '/bootcamp';
 exports.ROUTE_BOOTCAMP_REGISTER = exports.ROUTE_BOOTCAMP + '/register';
