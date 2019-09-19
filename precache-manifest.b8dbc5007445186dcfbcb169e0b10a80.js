@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "7182305266aa4961e321e3a886ae9401",
-    "url": "/static/media/irfan.71823052.png"
+    "revision": "a29f5ae8e541fbd4384991b1d3c6ddfc",
+    "url": "/static/media/munir.a29f5ae8.png"
   },
   {
-    "revision": "1e5467e1d337bf3abf35",
-    "url": "/static/css/main.02e83099.chunk.css"
+    "revision": "673ad72391460f142f92",
+    "url": "/static/css/main.f6056304.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "4bcca8091580c4c88362",
-    "url": "/static/js/2.4bcca809.chunk.js"
+    "revision": "d30927f7a54ed372a671",
+    "url": "/static/js/2.d30927f7.chunk.js"
   },
   {
     "revision": "23ef2e561e47701b14288fe208109fea",
@@ -48,12 +48,12 @@ self.__precacheManifest = [
     "url": "/static/media/fiqri.f5658b77.png"
   },
   {
-    "revision": "1e5467e1d337bf3abf35",
-    "url": "/static/js/main.1e5467e1.chunk.js"
+    "revision": "7182305266aa4961e321e3a886ae9401",
+    "url": "/static/media/irfan.71823052.png"
   },
   {
-    "revision": "a29f5ae8e541fbd4384991b1d3c6ddfc",
-    "url": "/static/media/munir.a29f5ae8.png"
+    "revision": "673ad72391460f142f92",
+    "url": "/static/js/main.673ad723.chunk.js"
   },
   {
     "revision": "5dfe4982fcb091575894613c7e3d97de",
@@ -92,7 +92,19 @@ self.__precacheManifest = [
     "url": "/static/media/bimo.52fe092d.png"
   },
   {
-    "revision": "0e2b5c9db2c0f84209beecae848312a4",
+    "revision": "c4a2cad09f6b7654a14321da868a6eeb",
+    "url": "/static/media/munir.c4a2cad0.png"
+  },
+  {
+    "revision": "7909fa0c642c6fab9d6f2b16e1c9093d",
+    "url": "/static/media/josal.7909fa0c.png"
+  },
+  {
+    "revision": "32d5920a59e8c748daa49cdb0c3e63cc",
+    "url": "/static/media/nicho.32d5920a.png"
+  },
+  {
+    "revision": "6441ca12b0ff3965e685cae291d59375",
     "url": "/index.html"
   }
 ];
