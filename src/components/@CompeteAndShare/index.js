@@ -6,9 +6,11 @@ import Navbar from 'components/Navbar';
 import Photo from 'components/Photo';
 import Who from 'assets/photos/who.png';
 import Ardy from 'assets/photos/compete-and-share/ardy.png';
+import Balya from 'assets/photos/compete-and-share/balya.png';
 import Bimo from 'assets/photos/compete-and-share/bimo.png';
 import Fahmi from 'assets/photos/compete-and-share/fahmi.png';
 import Fajar from 'assets/photos/compete-and-share/fajar.png';
+import Fikhaf from 'assets/photos/compete-and-share/fikhaf.png';
 import Gery from 'assets/photos/compete-and-share/gery.png';
 import Ilham from 'assets/photos/compete-and-share/ilham.png';
 import Irfan from 'assets/photos/compete-and-share/irfan.png';
@@ -16,6 +18,7 @@ import Iwang from 'assets/photos/compete-and-share/iwang.png';
 import Josal from 'assets/photos/compete-and-share/josal.png';
 import Munir from 'assets/photos/compete-and-share/munir.png';
 import Nicho from 'assets/photos/compete-and-share/nicho.png';
+import Teo from 'assets/photos/compete-and-share/teo.png';
 import Thoriq from 'assets/photos/compete-and-share/thoriq.png';
 import './index.scss';
 
@@ -74,6 +77,37 @@ export default class CompeteAndShare extends PageComponent {
 
           <div className="row my-5">
             <h2 className="mt-3 text-center font-weight-bold">Meet The Speakers!</h2>
+          </div>
+
+          <div className="head right mb-5">
+            <div className="ml-md-5 mb-3 d-flex flex-row align-items-end">
+              <Photo
+                className="mx-2" size="xxsmall"
+                imageSrc={Balya}
+                name="Balya Ibnu Sulistiyono"
+                // title="?"
+              />
+              <Photo
+                className="mx-2" size="xxsmall"
+                imageSrc={Teo}
+                name="Teo Wijayarto"
+                // title="?"
+              />
+              <Photo
+                className="mx-2" size="xxsmall"
+                imageSrc={Fikhaf}
+                name="M Fikri Hafiya"
+                // title="?"
+              />
+            </div>
+            <div className="text-center text-md-right caption">
+              <h2 className="text-xlarge">Business IT Case</h2>
+              <div className="line"></div>
+              <span className="font-italic wins">
+                2nd Winner Business IT Case ITFest 3.0<br/>
+                1st Winner Business IT Case Compfest X
+              </span>
+            </div>
           </div>
 
           <div className="head left mb-5">
@@ -222,38 +256,8 @@ export default class CompeteAndShare extends PageComponent {
                 name="?"
                 // title="?"
               />
-              <Photo
-                className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
-                // title="?"
-              />
             </div>
             <div className="text-center text-md-left caption">
-              <h2 className="text-xlarge">Business Case</h2>
-              <div className="line"></div>
-              <span className="font-italic">
-                Will be revealed Sept 22nd, 2019 6.00 pm
-              </span>
-            </div>
-          </div>
-
-          <div className="head right mb-5">
-            <div className="ml-md-5 mb-3 d-flex flex-row align-items-end">
-              <Photo
-                className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
-                // title="?"
-              />
-              <Photo
-                className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
-                // title="?"
-              />
-            </div>
-            <div className="text-center text-md-right caption">
               <h2 className="text-xlarge">Apps Innovation</h2>
               <div className="line"></div>
               <span className="font-italic">
