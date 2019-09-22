@@ -5,6 +5,7 @@ $medium: 175px;
 $small: 150px;
 $xsmall: 125px;
 $xxsmall: 100px;
+$xxxsmall: 80px;
 
 .photo {
     width: $medium;
@@ -14,6 +15,10 @@ $xxsmall: 100px;
 
     &.xxsmall {
         width: $xxsmall;
+    }
+
+    &.xxxsmall {
+        width: $xxxsmall;
     }
 
     .photo-wrapper {
@@ -42,6 +47,11 @@ $xxsmall: 100px;
     .photo-wrapper.xxsmall {
         width: $xxsmall;
         height: $xxsmall;
+    }
+
+    .photo-wrapper.xxxsmall {
+        width: $xxxsmall;
+        height: $xxxsmall;
     }
 
     .photo-wrapper.large {

@@ -5,6 +5,18 @@ import PageComponent from 'components/PageComponent';
 import Navbar from 'components/Navbar';
 import Photo from 'components/Photo';
 import Who from 'assets/photos/who.png';
+import Ardy from 'assets/photos/compete-and-share/ardy.png';
+import Bimo from 'assets/photos/compete-and-share/bimo.png';
+import Fahmi from 'assets/photos/compete-and-share/fahmi.png';
+import Fajar from 'assets/photos/compete-and-share/fajar.png';
+import Gery from 'assets/photos/compete-and-share/gery.png';
+import Ilham from 'assets/photos/compete-and-share/ilham.png';
+import Irfan from 'assets/photos/compete-and-share/irfan.png';
+import Iwang from 'assets/photos/compete-and-share/iwang.png';
+import Josal from 'assets/photos/compete-and-share/josal.png';
+import Munir from 'assets/photos/compete-and-share/munir.png';
+import Nicho from 'assets/photos/compete-and-share/nicho.png';
+import Thoriq from 'assets/photos/compete-and-share/thoriq.png';
 import './index.scss';
 
 export default class CompeteAndShare extends PageComponent {
@@ -68,58 +80,67 @@ export default class CompeteAndShare extends PageComponent {
             <div className="mr-md-5 mb-3 d-flex flex-row align-items-end">
               <Photo
                 className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
+                imageSrc={Fahmi}
+                name="Ahmad Fahmi P"
                 // title="?"
               />
               <Photo
                 className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
+                imageSrc={Gery}
+                name="Putu Gery W N"
                 // title="?"
               />
               <Photo
                 className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
+                imageSrc={Josal}
+                name="Joseph Salimin"
                 // title="?"
               />
             </div>
             <div className="text-center text-md-left caption">
-              <h2 className="text-xlarge">Competitive Programming</h2>
+              <h2 className="text-xlarge">Hackathon</h2>
               <div className="line"></div>
-              <span className="font-italic">
-                Will be revealed Sept 18th, 2019 6.00 pm
+              <span className="font-italic wins">
+                3rd Winner Hackathon Pertamina <br/>
+                3rd Winner BNCC Hackathon 2.0 <br/>
+                1st Winner Vacathon
               </span>
             </div>
           </div>
 
           <div className="head right mb-5">
-            <div className="mr-md-5 mb-3 d-flex flex-row align-items-end">
+            <div className="ml-md-5 mb-3 d-flex flex-row align-items-end">
               <Photo
-                className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
+                className="mx-2" size="xxxsmall"
+                imageSrc={Ilham}
+                name="Ilham F Putra"
                 // title="?"
               />
               <Photo
-                className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
+                className="mx-2" size="xxxsmall"
+                imageSrc={Ardy}
+                name="Ardysatrio Fakhri H"
                 // title="?"
               />
               <Photo
-                className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
+                className="mx-2" size="xxxsmall"
+                imageSrc={Fajar}
+                name="Fajar Muslim"
+                // title="?"
+              />
+              <Photo
+                className="mx-2" size="xxxsmall"
+                imageSrc={Thoriq}
+                name="Marsha Thoriq"
                 // title="?"
               />
             </div>
             <div className="text-center text-md-right caption">
-              <h2 className="text-xlarge">Cyber Security</h2>
+              <h2 className="text-xlarge">Data Science</h2>
               <div className="line"></div>
-              <span className="font-italic">
-                Will be revealed Sept 19th, 2019 6.00 pm
+              <span className="font-italic wins">
+                1st Winner EY NextWave Data Science Challenge<br/>
+                1st &amp; 3rd Winner Data Mining Joints UGM
               </span>
             </div>
           </div>
@@ -128,52 +149,61 @@ export default class CompeteAndShare extends PageComponent {
             <div className="mr-md-5 mb-3 d-flex flex-row align-items-end">
               <Photo
                 className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
+                imageSrc={Munir}
+                name="Muhammad A Munir"
                 // title="?"
               />
               <Photo
                 className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
+                imageSrc={Josal}
+                name="Joseph Salimin"
+                // title="?"
+              />
+              <Photo
+                className="mx-2" size="xxsmall"
+                imageSrc={Nicho}
+                name="Nicholas Rianto P"
                 // title="?"
               />
             </div>
             <div className="text-center text-md-left caption">
-              <h2 className="text-xlarge">Data Science</h2>
+              <h2 className="text-xlarge">Cyber Security</h2>
               <div className="line"></div>
-              <span className="font-italic">
-                Will be revealed Sept 20th, 2019 6.00 pm
+              <span className="font-italic wins">
+                1st &amp; 2nd Winner Capture The Flag Compfest XI <br/>
+                2nd Winner ITToday 2019 <br/>
+                3rd Winner Cyber Jawara 2018 <br/>
               </span>
             </div>
           </div>
 
           <div className="head right mb-5">
-            <div className="mr-md-5 mb-3 d-flex flex-row align-items-end">
+            <div className="ml-md-5 mb-3 d-flex flex-row align-items-end">
               <Photo
                 className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
+                imageSrc={Irfan}
+                name="Irfan Sofyana P"
                 // title="?"
               />
               <Photo
                 className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
+                imageSrc={Iwang}
+                name="Adyaksa Wisanggeni"
                 // title="?"
               />
               <Photo
                 className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
+                imageSrc={Bimo}
+                name="Bimo A Wiraputra"
                 // title="?"
               />
             </div>
             <div className="text-center text-md-right caption">
-              <h2 className="text-xlarge">Hackathon</h2>
+              <h2 className="text-xlarge">Competitive Programming</h2>
               <div className="line"></div>
-              <span className="font-italic">
-                Will be revealed Sept 21st, 2019 6.00 pm
+              <span className="font-italic wins">
+                2nd Winner Competitive Programming Compfest XI <br/>
+                3rd Winner Competitive Programming Vocomfest
               </span>
             </div>
           </div>
@@ -209,7 +239,7 @@ export default class CompeteAndShare extends PageComponent {
           </div>
 
           <div className="head right mb-5">
-            <div className="mr-md-5 mb-3 d-flex flex-row align-items-end">
+            <div className="ml-md-5 mb-3 d-flex flex-row align-items-end">
               <Photo
                 className="mx-2" size="xxsmall"
                 imageSrc={Who}
