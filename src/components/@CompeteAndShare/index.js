@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import PageComponent from 'components/PageComponent';
 import Navbar from 'components/Navbar';
 import Photo from 'components/Photo';
-import Who from 'assets/photos/who.png';
+import Albert from 'assets/photos/compete-and-share/albert.png';
 import Ardy from 'assets/photos/compete-and-share/ardy.png';
 import Balya from 'assets/photos/compete-and-share/balya.png';
 import Bimo from 'assets/photos/compete-and-share/bimo.png';
@@ -18,6 +18,7 @@ import Iwang from 'assets/photos/compete-and-share/iwang.png';
 import Josal from 'assets/photos/compete-and-share/josal.png';
 import Munir from 'assets/photos/compete-and-share/munir.png';
 import Nicho from 'assets/photos/compete-and-share/nicho.png';
+import Rifda from 'assets/photos/compete-and-share/rifda.png';
 import Teo from 'assets/photos/compete-and-share/teo.png';
 import Thoriq from 'assets/photos/compete-and-share/thoriq.png';
 import './index.scss';
@@ -79,6 +80,32 @@ export default class CompeteAndShare extends PageComponent {
             <h2 className="mt-3 text-center font-weight-bold">Meet The Speakers!</h2>
           </div>
 
+          <div className="head left mb-5">
+            <div className="mr-md-5 mb-3 d-flex flex-row align-items-end">
+              <Photo
+                className="mx-2" size="xxsmall"
+                imageSrc={Albert}
+                name="Albert Sahala T"
+                // title="?"
+              />
+              <Photo
+                className="mx-2" size="xxsmall"
+                imageSrc={Rifda}
+                name="Rifda Annelies"
+                // title="?"
+              />
+            </div>
+            <div className="text-center text-md-left caption">
+              <h2 className="text-xlarge">Idea Challenge</h2>
+              <div className="line"></div>
+              <span className="font-italic wins">
+                1st Winner L’Oréal Brandstorm National 2019<br/>
+                1st Winner L’Oréal Brandstorm International 2019<br/>
+                3rd Winner Business IT Case IT Fest 3.0
+              </span>
+            </div>
+          </div>
+
           <div className="head right mb-5">
             <div className="ml-md-5 mb-3 d-flex flex-row align-items-end">
               <Photo
@@ -105,7 +132,8 @@ export default class CompeteAndShare extends PageComponent {
               <div className="line"></div>
               <span className="font-italic wins">
                 2nd Winner Business IT Case ITFest 3.0<br/>
-                1st Winner Business IT Case Compfest X
+                1st Winner Business IT Case Compfest X<br/>
+                2nd Winner Information System Case Competition 2018<br/>
               </span>
             </div>
           </div>
@@ -238,30 +266,6 @@ export default class CompeteAndShare extends PageComponent {
               <span className="font-italic wins">
                 2nd Winner Competitive Programming Compfest XI <br/>
                 3rd Winner Competitive Programming Vocomfest
-              </span>
-            </div>
-          </div>
-
-          <div className="head left mb-5">
-            <div className="mr-md-5 mb-3 d-flex flex-row align-items-end">
-              <Photo
-                className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
-                // title="?"
-              />
-              <Photo
-                className="mx-2" size="xxsmall"
-                imageSrc={Who}
-                name="?"
-                // title="?"
-              />
-            </div>
-            <div className="text-center text-md-left caption">
-              <h2 className="text-xlarge">Apps Innovation</h2>
-              <div className="line"></div>
-              <span className="font-italic">
-                Will be revealed Sept 23rd, 2019 6.00 pm
               </span>
             </div>
           </div>
