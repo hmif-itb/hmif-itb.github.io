@@ -1,0 +1,79 @@
+@import "../../styles/base";
+
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+
+    .page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .logo {
+        margin-top: 32px;
+    }
+
+    .main {
+        min-height: 100vh;
+        display: flex;
+
+        .content {
+            flex: 1;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+
+            .primary {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .yellow-line {
+                    width: 50px;
+                    height: 8px;
+                    border-radius: 4px;
+                    background: $primary-color;
+                }
+
+                h1 {
+                    font-weight: 900;
+                    color: $primary-color;
+                    font-size: 42px;
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                }
+            }
+
+            .footer {
+                margin-bottom: 32px;
+                margin-top: 32px;
+                font-size: 0.75em;
+
+                a {
+                    margin-right: 16px;
+                    color: $link-color;
+                }
+            }
+        }
+
+        @media screen and (min-width: $breakpoint-lg) {
+            .right-image {
+                flex: 1;
+                min-height: 100vh;
+                width: 100%;
+            }
+        }
+    }
+}
