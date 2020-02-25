@@ -19,7 +19,7 @@ export default class About extends PageComponent {
           <div className="main">
             <div className="content">
               <div className="logo">
-                <img src={Logo} height={15} />
+                <img src={Logo} height={15} alt="HMIF Logo" />
               </div>
               <div className="primary">
                 <div className="yellow-line"></div>
@@ -29,9 +29,9 @@ export default class About extends PageComponent {
                 </div>
               </div>
               <div className="footer">
-                <a href="https://hmif.itb.ac.id" target="_blank">HMIF ITB</a>
-                <a href="https://medium.com/hmif-itb" target="_blank">Medium</a>
-                <a href="https://mint.hmif.tech" target="_blank">Mint by HMIF Tech</a>
+                <a href="https://hmif.itb.ac.id" rel="noopener noreferrer" target="_blank">HMIF ITB</a>
+                <a href="https://medium.com/hmif-itb" rel="noopener noreferrer" target="_blank">Medium</a>
+                <a href="https://mint.hmif.tech" rel="noopener noreferrer" target="_blank">Mint by HMIF Tech</a>
               </div>
             </div>
             <div className="right-image" style={{background: `url(${RightBackground})`, backgroundSize: 'cover'}}>
