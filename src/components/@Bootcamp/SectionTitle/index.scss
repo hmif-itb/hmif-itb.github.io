@@ -1,0 +1,18 @@
+@import "../../../styles/base";
+
+.section-title {
+  margin-top: 48px;
+
+  .title {
+    color: $primary-orange;
+    display: inline-block;
+  }
+
+  .yellow-line {
+    width: 50px;
+    height: 4px;
+    border-radius: 2px;
+    background: $primary-orange;
+    margin: .5em 0 1em;
+  }
+}

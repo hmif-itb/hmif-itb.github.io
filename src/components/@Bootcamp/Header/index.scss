@@ -1,0 +1,32 @@
+@import "../../../styles/base";
+
+.header {
+  width: 100%;
+  background-color: $broken-white;
+  color: black;
+
+  .button-back {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  .super-heading {
+    font-size: 52pt;
+    margin-top: 18px;
+  }
+
+  .content {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .bootcamp-logo {
+    width: 120px;
+  }
+}

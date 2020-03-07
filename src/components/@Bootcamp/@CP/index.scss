@@ -1,0 +1,38 @@
+@import "../../../styles/base";
+
+$field-color: #4CAF50;
+
+.bootcamp-cp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $white;
+  color: $accent-color;
+
+  .button-register {
+    padding: 1em;
+    background-color: $field-color;
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .section-title {
+    margin-top: 48px;
+
+    .title {
+      color: $field-color;
+      display: inline-block;
+    }
+
+    .yellow-line {
+      width: 50px;
+      height: 4px;
+      border-radius: 2px;
+      background: $field-color;
+      margin: .5em 0 1em;
+    }
+  }
+
+}
