@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 import {
-  ROUTE_BOOTCAMP_BP,
   ROUTE_BOOTCAMP_CP,
   ROUTE_BOOTCAMP_CTF,
   ROUTE_BOOTCAMP_DS,
@@ -36,7 +35,7 @@ export default class Bootcamp extends PageComponent {
       <div key={category.link} className="category col-6 col-md-4">
         <Link to={category.link}>
           <div className="card">
-            <img alt={category.name} src={category.logo} height="50%"/>
+            <img alt={category.name} src={category.logo} height="50%" />
             <div className="font-weight-semibold text-center">{category.name}</div>
           </div>
         </Link>
@@ -72,7 +71,9 @@ export default class Bootcamp extends PageComponent {
         </Helmet>
 
         <div className="page py-5 w-100 d-flex flex-column justify-content-center align-items-center heading">
-          <img alt="Bootcamp" src={LogoBootcamp} className="bootcamp-hero" />
+          <div className="bootcamp-hero">
+            <img alt="Bootcamp" src={LogoBootcamp} />
+          </div>
           <div className="d-flex flex-row justify-content-center my-3">
             <img alt="CP" src={LogoCP} className="logo-small"/>
             <img alt="CTF" src={LogoCTF} className="logo-small"/>

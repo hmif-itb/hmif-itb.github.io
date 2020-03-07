@@ -17,7 +17,12 @@
   }
 
   .bootcamp-hero {
-    max-width: 400px;
+    margin: 16px;
+
+    img {
+      max-width: 400px;
+      width: 100%;
+    }
   }
 
   .heading {
@@ -55,6 +60,10 @@
       align-items: center;
       height: 100%;
       border: 2px solid $primary-orange;
+
+      img {
+        max-width: 100%;
+      }
     }
   }
 
