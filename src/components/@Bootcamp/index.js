@@ -114,7 +114,7 @@ export default class Bootcamp extends PageComponent {
 
           <SectionTitle>Save The Date!</SectionTitle>
           <p>
-            Bootcamp will be held in 6 days: 13 Oct, 20 Oct, 27 Oct, 3 Nov, and 10 Nov, 17 Nov.
+            Bootcamp will be held in 8 days: 28 &amp; 29 Mar, 4 &amp; 5 Apr, 11 Apr &amp; 12 Apr, and 18 &amp; 19 Apr.
             See the details on each categories.
           </p>
 

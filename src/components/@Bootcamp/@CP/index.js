@@ -27,14 +27,13 @@ export default class BootcampCP extends PageComponent {
         <div className="page container mt-4">
           <div className="row mb-3">
             <div className="col-12">
-              <SectionTitle>What You Will Learn</SectionTitle>
+              <SectionTitle>What to Expect</SectionTitle>
               <ul className="ml-4">
-                <li>Introduction to Competitive Programming: C++ STL, Ad Hoc</li>
-                <li>Bruteforce, Greedy</li>
-                <li>Math: Combinatorics, Number Theory</li>
-                <li>Graph: BFS, DFS, Toposort, MST, Shortest Path</li>
-                <li>Dynamic Programming: Prefix Sum, LCS, LIS, Coin Change, Bitmask</li>
-                <li>Data Structure: Union-Find Disjoint Set, Segment Tree, Binary Indexed Tree</li>
+                <li>Algorithms and Data Structures</li>
+                <li>Mathematics</li>
+                <li>Problem Solving Techniques</li>
+                <li>Debugging Skill</li>
+                <li>Competitions Sharing</li>
               </ul>
             </div>
           </div>
@@ -46,21 +45,6 @@ export default class BootcampCP extends PageComponent {
                 <li>Programming language (C++)</li>
                 <li>Curious to learn algorithms and data structure</li>
               </ul>
-            </div>
-          </div>
-
-          <div className="row mb-3">
-            <div className="col-12">
-              <SectionTitle>Timeline</SectionTitle>
-              Competitive Programming Bootcamp will be held in 6 days:
-              <ol className="ml-4">
-                <li>Saturday, Oct 12th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Oct 20th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Oct 27th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Nov 3rd, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Nov 10th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Nov 17th, 2019 (1 pm - 6 pm)</li>
-              </ol>
             </div>
           </div>
 

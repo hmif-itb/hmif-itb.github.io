@@ -15,14 +15,14 @@ export default class BootcampUX extends PageComponent {
     return (
       <div className="bootcamp-ux">
         <Helmet>
-          <title> Bootcamp HMIF - Game Development </title>
+          <title> Bootcamp HMIF - UI/UX </title>
         </Helmet>
 
         <Header
           logo={LogoUX}
           title={<>UI/<span style={{color: '#3F51B5'}}>UX</span></>}
           borderColor='#3F51B5'
-          quote={"Every great design begins with an even better story. Make yours here!"}
+          quote={"Design is not always about designing a beautiful and eye-striking contents; it's also about how your product can interact with a plethora of users with unique characteristics. Join us on a learning journey for shaping a better experience for others!"}
         />
 
         <div className="page container mt-4">
@@ -36,25 +36,13 @@ export default class BootcampUX extends PageComponent {
 
           <div className="row mb-3">
             <div className="col-12">
-              <SectionTitle>What is UI/UX Bootcamp?</SectionTitle>
-              <p>
-                UI/UX Bootcamp is a 3-week basic UI and UX training that is full of course and hands-on training.
-                This aims you to grasp core knowledge to make you ready for creating great user-centered digital prototype.
-              </p>
-            </div>
-          </div>
-
-          <div className="row mb-3">
-            <div className="col-12">
-              <SectionTitle>What You Will Learn</SectionTitle>
+              <SectionTitle>What to Expect</SectionTitle>
               <ul className="ml-4">
-                <li>User-Centered Design</li>
-                <li>Design Thinking</li>
-                <li>User Research</li>
+                <li>User analysis and persona</li>
+                <li>User flow</li>
+                <li>Good design practices</li>
                 <li>Competitive Analysis</li>
-                <li>Wireframing &amp; Prototyping</li>
-                <li>Interaction Design</li>
-                <li>...and many more</li>
+                <li>Hands-on wireframing and prototyping</li>
               </ul>
             </div>
           </div>
@@ -67,31 +55,6 @@ export default class BootcampUX extends PageComponent {
                 <li>Has basic experience of graphic design</li>
                 <li>Curious to learn new things and explore creative solutions</li>
               </ul>
-            </div>
-          </div>
-
-          <div className="row mb-3">
-            <div className="col-12">
-              <SectionTitle>Benefits</SectionTitle>
-              <ul className="ml-4">
-                <li>Gain exposure in UI/UX related competition, e.g. mobile app/web design competition, hackathons, game development, etc</li>
-                <li>Most "app-building" competitions undoubtedly requires good interface. So, what are you waiting for?</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="row mb-3">
-            <div className="col-12">
-              <SectionTitle>Timeline</SectionTitle>
-              UI / UX Bootcamp will be held in 6 days:
-              <ol className="ml-4">
-                <li>Sunday, Oct 13th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Oct 20th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Oct 27th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Nov 3rd, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Nov 10th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Nov 17th, 2019 (1 pm - 6 pm)</li>
-              </ol>
             </div>
           </div>
 

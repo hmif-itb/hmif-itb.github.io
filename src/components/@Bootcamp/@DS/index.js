@@ -27,24 +27,13 @@ export default class BootcampDS extends PageComponent {
         <div className="page container mt-4">
           <div className="row mb-3">
             <div className="col-12">
-              <SectionTitle>What is Data Science?</SectionTitle>
-              <p>
-                Data Science bootcamp is a 3-week basic data science training that contains discussion and hands-on learning.
-                Trained by speakers with various experience in data science competition, participants will get a variety of new knowledge about data science.
-              </p>
-            </div>
-          </div>
-
-          <div className="row mb-3">
-            <div className="col-12">
-              <SectionTitle>What You Will Learn</SectionTitle>
+              <SectionTitle>What to Expect</SectionTitle>
               <ul className="ml-4">
-                <li>Introduction to Data Science</li>
+                <li>Data Analysis with Python</li>
+                <li>Data Visualization</li>
+                <li>Introduction to Machine Learning</li>
                 <li>Data Science Workflow</li>
-                <li>Exploratory Data Analysis</li>
-                <li>Feature Engineering 101</li>
-                <li>Supervised Learning</li>
-                <li>Unsupervised Learning</li>
+                <li>Competition and Internship Sharing</li>
               </ul>
             </div>
           </div>
@@ -57,32 +46,6 @@ export default class BootcampDS extends PageComponent {
                 <li>Passion in big data</li>
                 <li>Curious to learn new things and explore creative solutions</li>
               </ul>
-            </div>
-          </div>
-
-          <div className="row mb-3">
-            <div className="col-12">
-              <SectionTitle>Benefits</SectionTitle>
-              <ul className="ml-4">
-                <li>Gain exposure to data science competition</li>
-                <li>Expand your network with other data science enthusiast and team up</li>
-                <li>Tips &amp; trick from the winner of data science competition (Gemastik, CIMB 3D Conquest, Airliquide Data Challenge, Kaggle, and many more...)</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="row mb-3">
-            <div className="col-12">
-              <SectionTitle>Timeline</SectionTitle>
-              Data Science Bootcamp will be held in 6 days:
-              <ol className="ml-4">
-                <li>Sunday, Oct 13th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Oct 20th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Oct 27th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Nov 3rd, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Nov 10th, 2019 (1 pm - 6 pm)</li>
-                <li>Sunday, Nov 17th, 2019 (1 pm - 6 pm)</li>
-              </ol>
             </div>
           </div>
 

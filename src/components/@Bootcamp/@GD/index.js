@@ -22,58 +22,23 @@ export default class BootcampGD extends PageComponent {
           logo={LogoGD}
           title={<>Game <span style={{color: '#E91E63'}}>Development</span></>}
           borderColor='#E91E63'
-          quote={"What better ways to express and tell your story than by creating games!"}
+          quote={"Start your journey on realizing your dream game with us! Get it out of your reverie, look for clues around the world, and smith the best game ever..slowly but surely!"}
         />
 
         <div className="page container mt-4">
-          <div className="row mb-3">
-            <div className="col-12">
-              <SectionTitle>What is Game Development?</SectionTitle>
-              <p>
-                Game dev bootcamp is an event where you (yes, you!) can learn, discuss, and create your own game!
-                Yay! In this three weeks event, you will dive head first into the environtment of game development.
-              </p>
-            </div>
-          </div>
 
           <div className="row mb-3">
             <div className="col-12">
-              <SectionTitle>What You Will Learn</SectionTitle>
+              <SectionTitle>What to Expect</SectionTitle>
               <ul className="ml-4">
-                <li>Dive head first into game development via Unity and C#!</li>
-                <li>Learn about assets, prefabs, scenes, and scripts!</li>
-                <li>Put your crazy ideas in your head to good use in creating your own game design!</li>
-                <li>Tell the most unique story you have kept this whole time with your own game!</li>
-                <li>Learn how not to choke your players with good UI/UX design!</li>
-                <li>Learn how to communicate with your friends (no seriously this is also important)!</li>
+                <li>Introduction to Unity Game Engine</li>
+                <li>How scripting can support your infinite creativity</li>
+                <li>Simple Animation</li>
+                <li>Integrating Audio</li>
+                <li>UI and Build Export</li>
+                <li>Making Minimum Viable Product (MVP)</li>
+                <li>Game Design: How to Express Ideas and Craft Experience</li>
               </ul>
-            </div>
-          </div>
-
-          <div className="row mb-3">
-            <div className="col-12">
-              <SectionTitle>Benefits</SectionTitle>
-              <ul className="ml-4">
-                <li>Create your own game (duh!).</li>
-                <li>Understanding how gameplay, design, and story determines your game significantly!</li>
-                <li>Your confidence will be boosted from 0% to somewhere between 1% - 100%</li>
-                <li>Git gud.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="row mb-3">
-            <div className="col-12">
-              <SectionTitle>Timeline</SectionTitle>
-              Game Development Bootcamp will be held in 6 days:
-              <ol className="ml-4">
-                <li>Sunday, Oct 13th, 2019 (8 am - 12 pm)</li>
-                <li>Sunday, Oct 20th, 2019 (8 am - 12 pm)</li>
-                <li>Sunday, Oct 27th, 2019 (8 am - 12 pm)</li>
-                <li>Sunday, Nov 3rd, 2019 (8 am - 12 pm)</li>
-                <li>Sunday, Nov 10th, 2019 (8 am - 12 pm)</li>
-                <li>Sunday, Nov 17th, 2019 (8 am - 12 pm)</li>
-              </ol>
             </div>
           </div>
 
