@@ -13,4 +13,21 @@
   .registration-loader {
     background: url('/loading.gif') center 20px no-repeat;
   }
+
+  .title {
+    font-weight: 900;
+    font-size: 28pt;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+
+  .registration-iframe {
+    height: 2222px;
+  }
+
+  @media only screen and (max-width: $breakpoint-md) {
+    .registration-iframe {
+      height: 2400px;
+    }
+  }
 }
