@@ -24,10 +24,10 @@ export default class Router extends Component {
         <Route path={routes.ROUTE_BOOTCAMP_UX} component={BootcampUX} />
         <Route path={routes.ROUTE_BOOTCAMP_GAME} component={BootcampGD} />
         <Route path={routes.ROUTE_BOOTCAMP} component={Bootcamp} exact />
-        <Route path='/:path' component={(props) => {
-          window.location.href = `https://go.hmif.tech/${props.match.params.path}`;
-          return null;
-        }}/>
+//         <Route path='/:path' component={(props) => {
+//           window.location.href = `https://go.hmif.tech/${props.match.params.path}`;
+//           return null;
+//         }}/>
       </Switch>
     );
   }
