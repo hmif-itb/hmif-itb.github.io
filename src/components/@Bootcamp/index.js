@@ -132,10 +132,10 @@ export default class Bootcamp extends PageComponent {
             Additionally, there will be 50K IDR commitment fee for those who passed our test and selected to be participant.
             This commitment fee <span className="font-weight-semibold">will be returned</span> by the end of Bootcamp if you attend all of our agenda (or you have good reasons to not attend).
           </p>
-          
+
           <SectionTitle>Contact Person?</SectionTitle>
           <p>
-            Zunan: WA 08112334569 / Line mzunana / Email 13518019@std.stei.itb.ac.id
+            Hasan: WA 085956064292 / LINE m.hasan01 / Email 13518012@std.stei.itb.ac.id
           </p>
 
           <div className="my-5 d-flex flex-row justify-content-center">
