@@ -31,13 +31,19 @@ export default class BootcampGD extends PageComponent {
             <div className="col-12">
               <SectionTitle>What to Expect</SectionTitle>
               <ul className="ml-4">
-                <li>Introduction to Unity Game Engine</li>
-                <li>How scripting can support your infinite creativity</li>
-                <li>Simple Animation</li>
-                <li>Integrating Audio</li>
-                <li>UI and Build Export</li>
-                <li>Making Minimum Viable Product (MVP)</li>
-                <li>Game Design: How to Express Ideas and Craft Experience</li>
+                <li>Creating A Game with Unity</li>
+                <li>Game Design</li>
+                <li>Object Oriented Programming (OOP)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="row mb-3">
+            <div className="col-12">
+              <SectionTitle>Preferrable Skills</SectionTitle>
+              <ul className="ml-4">
+                <li>Have a device to run Unity and Discord</li>
+                <li>Curious to learn C# and OOP</li>
               </ul>
             </div>
           </div>
