@@ -22,7 +22,7 @@ export default class BootcampUX extends PageComponent {
           logo={LogoUX}
           title={<>UI/<span style={{color: '#3F51B5'}}>UX</span></>}
           borderColor='#3F51B5'
-          quote={"Design is not always about designing a beautiful and eye-striking contents; it's also about how your product can interact with a plethora of users with unique characteristics. Join us on a learning journey for shaping a better experience for others!"}
+          quote={"People ignore design that ignores people"}
         />
 
         <div className="page container mt-4">
@@ -38,11 +38,11 @@ export default class BootcampUX extends PageComponent {
             <div className="col-12">
               <SectionTitle>What to Expect</SectionTitle>
               <ul className="ml-4">
-                <li>User analysis and persona</li>
-                <li>User flow</li>
-                <li>Good design practices</li>
-                <li>Competitive Analysis</li>
-                <li>Hands-on wireframing and prototyping</li>
+                <li>Mini Project</li>
+                <li>UX Theories</li>
+                <li>UI Theories</li>
+                <li>Wireframing</li>
+                <li>High-Fidelity Design</li>
               </ul>
             </div>
           </div>
@@ -51,9 +51,9 @@ export default class BootcampUX extends PageComponent {
             <div className="col-12">
               <SectionTitle>Preferrable Skills</SectionTitle>
               <ul className="ml-4">
-                <li>Has basic knowledge of graphic design softwares (Illustrator, CorelDraw, or any of your choices)</li>
+                <li>Has basic knowledge of graphic design softwares (Illustrator, CorelDraw, Photoshop, or any of your choices)</li>
                 <li>Has basic experience of graphic design</li>
-                <li>Curious to learn new things and explore creative solutions</li>
+                <li>Interested in UI / UX</li>
               </ul>
             </div>
           </div>
