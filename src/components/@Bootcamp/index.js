@@ -114,7 +114,8 @@ export default class Bootcamp extends PageComponent {
 
           <SectionTitle>Save The Date!</SectionTitle>
           <p>
-            Bootcamp will be held in 6 days: 6 Feb 2021, 13 Feb 2021, 20 Feb 2021, 27 Feb 2021, 6 Mar 2021, &amp; 13 Mar 2021.
+            Bootcamp will be held in 4 to 6 days (depending on the category):
+            13 Feb 2021, 20 Feb 2021, 27 Feb 2021, 27 Feb 2021, 6 Mar 2021, &amp; 13 Mar 2021.
           </p>
 
           <SectionTitle>The Categories</SectionTitle>
@@ -129,8 +130,6 @@ export default class Bootcamp extends PageComponent {
             This bootcamp is held <span className="font-weight-semibold">online</span> and <span className="font-weight-semibold">free</span>.
             The seat is limited, so we want to limit this bootcamp only for those who have commitment.
             So, if it is necessary, we will conduct a selection (we will contact you as soon as possible, after you fill this form).
-            Additionally, there will be 50K IDR commitment fee for those who passed our test and selected to be participant.
-            This commitment fee <span className="font-weight-semibold">will be returned</span> by the end of Bootcamp if you attend all of our agenda (or you have good reasons to not attend).
           </p>
 
           <SectionTitle>Contact Person?</SectionTitle>
