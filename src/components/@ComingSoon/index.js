@@ -25,7 +25,7 @@ export default class About extends PageComponent {
                 <div className="yellow-line"></div>
                 <h1>Coming Soon</h1>
                 <div>
-                  <b>Penasaran?</b> Dateng muker. Maret 2020.
+                  <b>Penasaran?</b> <del>Dateng muker. Maret 2020.</del> udah lewat
                 </div>
               </div>
               <div className="footer">
