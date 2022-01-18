@@ -21,7 +21,7 @@ export default class BootcampCP extends PageComponent {
         <Header
           logo={LogoCP}
           title={<>Competitive <span style={{color: '#4CAF50'}}>Programming</span></>}
-          quote={<>Dive into the world of competitive programming! Master problem solving techniques, hone your mathematics analysis strength, push the boundaries of your reasoning skill, and maximize your programming ability!</>}
+          quote={<>Solving short problems with code, correctly and efficiently</>}
           borderColor='#4CAF50' />
 
         <div className="page container mt-4">
@@ -30,6 +30,7 @@ export default class BootcampCP extends PageComponent {
               <SectionTitle>What to Expect</SectionTitle>
               <ul className="ml-4">
                 <li>Algorithms and Data Structures</li>
+                <li>Coding Implementation Skills</li>
                 <li>Mathematics</li>
                 <li>Problem Solving Techniques</li>
                 <li>Debugging Skill</li>
@@ -42,7 +43,7 @@ export default class BootcampCP extends PageComponent {
             <div className="col-12">
               <SectionTitle>Preferrable Skills</SectionTitle>
               <ul className="ml-4">
-                <li>Programming language (C++)</li>
+                <li>Programming language (Preferably C++ / Java / Python)</li>
                 <li>Curious to learn algorithms and data structure</li>
               </ul>
             </div>
