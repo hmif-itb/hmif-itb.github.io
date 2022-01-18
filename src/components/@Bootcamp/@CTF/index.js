@@ -21,7 +21,7 @@ export default class BootcampCTF extends PageComponent {
         <Header
           logo={LogoCTF}
           title={<>Capture The <span style={{color: '#FF5722'}}>Flag</span></>}
-          quote={<>In this era of technology, cyber security becomes undeniably important. Want to know how to exploit unsafe systems and build safer ones? Join us and we'll show you how to be the hackerman you know you want to be!</>}
+          quote={<>No System is Safe!</>}
           borderColor='#FF5722' />
 
         <div className="page container mt-4">
@@ -30,12 +30,12 @@ export default class BootcampCTF extends PageComponent {
             <div className="col-12">
               <SectionTitle>What to Expect</SectionTitle>
               <ul className="ml-4">
-                <li>Web App Exploitation</li>
-                <li>Binary Executable Exploitation</li>
-                <li>Reverse Engineering</li>
+                <li>Website Exploitation</li>
+                <li>Digital Forensic</li>
                 <li>Cryptography</li>
-                <li>Digital Forensics</li>
-                <li>Linux and Scripting Basics</li>
+                <li>Pwn / Binary Exploitation</li>
+                <li>Reverse Engineering</li>
+                <li>Scripting</li>
               </ul>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default class BootcampCTF extends PageComponent {
             <div className="col-12">
               <SectionTitle>Preferrable Skills</SectionTitle>
               <ul className="ml-4">
-                <li>Familiar with Linux OS</li>
+                <li>Familiar with Linux OS (Virtual Machine / Dual Boot)</li>
                 <li>Programming Language (Python)</li>
                 <li>Curious to learn new things and explore creative solutions</li>
               </ul>
