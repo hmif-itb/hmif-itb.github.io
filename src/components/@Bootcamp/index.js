@@ -140,7 +140,7 @@ export default class Bootcamp extends PageComponent {
           <div className="my-5 d-flex flex-row justify-content-center">
             <Link to={ROUTE_BOOTCAMP_REGISTER}>
               <button className="button-register font-weight-semibold">
-                Register Now!
+                Register Now!!
               </button>
             </Link>
           </div>
