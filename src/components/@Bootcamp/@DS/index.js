@@ -21,7 +21,7 @@ export default class BootcampDS extends PageComponent {
         <Header
           logo={LogoDS}
           title={<>Data <span style={{color: '#2196F3'}}>Science</span></>}
-          quote={"Take your first step into the hottest and most relevant field in today's industry; Grasp the concept, learn the tools, and build your network."}
+          quote={"Data is the New Oil"}
           borderColor='#2196F3' />
 
         <div className="page container mt-4">
@@ -29,11 +29,16 @@ export default class BootcampDS extends PageComponent {
             <div className="col-12">
               <SectionTitle>What to Expect</SectionTitle>
               <ul className="ml-4">
-                <li>Data Analysis with Python</li>
-                <li>Data Visualization</li>
-                <li>Introduction to Machine Learning</li>
+                <li>Intro to Data Science</li>
+                <li>Competition Sharing</li>
+                <li>Data Science Task: Supervised and Unsupervised</li>
                 <li>Data Science Workflow</li>
-                <li>Competition and Internship Sharing</li>
+                <li>Data Cleaning and Preprocessing</li>
+                <li>EDA</li>
+                <li>Feature Engineering</li>
+                <li>Modelling</li>
+                <li>Validation</li>
+                <li>Hands-on</li>
               </ul>
             </div>
           </div>
