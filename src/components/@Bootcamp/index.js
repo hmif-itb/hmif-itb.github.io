@@ -115,7 +115,7 @@ export default class Bootcamp extends PageComponent {
           <SectionTitle>Save The Date!</SectionTitle>
           <p>
             Bootcamp will be held in 4 to 6 days (depending on the category):
-            13 Feb 2021, 20 Feb 2021, 27 Feb 2021, 27 Feb 2021, 6 Mar 2021, &amp; 13 Mar 2021.
+            13 Feb 2022, 20 Feb 2022, 27 Feb 2022, 27 Feb 2022, 6 Mar 2022, &amp; 13 Mar 2022.
           </p>
 
           <SectionTitle>The Categories</SectionTitle>
@@ -140,7 +140,7 @@ export default class Bootcamp extends PageComponent {
           <div className="my-5 d-flex flex-row justify-content-center">
             <Link to={ROUTE_BOOTCAMP_REGISTER}>
               <button className="button-register font-weight-semibold">
-                Register Now!!
+                Register Now!
               </button>
             </Link>
           </div>
