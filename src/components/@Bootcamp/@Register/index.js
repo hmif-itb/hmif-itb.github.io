@@ -26,7 +26,7 @@ export default class BootcampRegister extends PageComponent {
                   width="100%" className="registration-iframe" frameBorder="0" marginHeight="0" marginWidth="0">Loading…
                 </iframe>
                 <div>
-                  If the register still doesn't show up, please click on this <a href={URL}>link!</a>
+                  <a href={URL}>If the register still doesn't show up, please click on this link!</a>
                 </div>
               </div>
             </div>
